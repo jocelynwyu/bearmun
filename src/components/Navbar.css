@@ -1,0 +1,219 @@
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  background: rgb(195, 207, 227);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.navbar-name {
+  color: #000000;
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.fa-typo3 {
+  margin-left: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(10, auto); /* Adjusted for 5 menu items */
+  grid-gap: 0px;
+  list-style: none;
+  text-align: center;
+  width: 75vw;
+  justify-content: end;
+  text-decoration: none;
+}
+
+.nav-item {
+  height: 80px;
+}
+
+.nav-links {
+  color: #000000;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 1rem 1rem; /* Adjusted padding */
+  height:100%;
+  transition: font-size 0.2s; /* Added transition */
+}
+
+.nav-links:hover {
+  font-size: 1.05rem; /* Increased font size on hover */
+}
+
+.menu-icon {
+  display: none;
+}
+
+.social-icons-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50px;
+  margin-left: 15px;
+  margin-bottom: 32px;
+  margin-top: 29px;
+}
+
+.dropdown-menu {
+  list-style: none;
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  background: rgb(195, 207, 227);
+  opacity: 0.9;
+}
+
+.dropdown-item {
+  padding: 10px;
+  text-decoration: none;
+  color: black
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  text-decoration: none;
+  color: black
+}
+
+.dropdown-links {
+  padding: 10px;
+  text-decoration: none;
+  color: black
+}
+
+@media screen and (max-width: 1060px) {
+  /* Existing media query styles */
+
+  .menu-icon {
+      display: block; /* Show menu icon for mobile */
+      position: absolute;
+      top: 50%;
+      right: 5%;
+      transform: translateY(-50%);
+      font-size: 2rem;
+      color: #000000;
+  }
+
+  .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 80px;
+      left: -100%;
+      opacity: 1;
+      transition: all 0.5s ease-out;
+      background: rgb(195, 207, 227);
+      z-index: 1;
+      align-content: center;
+      text-align: center;
+  }
+
+  .nav-menu.active {
+      left: 0;
+      opacity: 0.9;
+      transition: all 0.5s ease;
+      height: auto; /* Changed height to auto for mobile */
+  }
+
+  .nav-item {
+      width: 100%; /* Ensure nav items take full width */
+  }
+
+  .nav-links {
+      padding: 1rem;
+      text-align: center;
+  }
+
+  .dropdown-menu {
+      position: static; /* Change to static position */
+      display: none;
+      margin-left: 0;
+      padding-left: 1rem;
+      background-color: #fff;
+      box-shadow: none;
+  }
+
+  .dropdown-item {
+      padding: 10px;
+  }
+
+  .nav-item:hover .dropdown-menu {
+      display: block;
+  }
+
+  .dropdown-links {
+      display: block;
+      padding: 0.5rem 0;
+      color: #000;
+  }
+
+  .dropdown-links:hover {
+      background-color: #eee;
+  }
+
+  .fa-caret-down {
+      display: none; /* Hide dropdown icon on mobile */
+  }
+
+  /* Social Icons */
+  .social-icon-link-nav {
+      color: #fff;
+      font-size: 15px;
+  }
+
+  .social-media-wrap-nav {
+      display: block;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      margin-top: 60px;
+  }
+
+  .social-icons-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      width: 20%;
+      margin-left: 40%;
+      margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navbar-logo {
+      color: #fff;
+      justify-self: start;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      height: 40px;
+  }
+}

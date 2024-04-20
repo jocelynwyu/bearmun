@@ -1,0 +1,21 @@
+.btn--outline{
+  display: flex;
+  width: 160px;
+  height: 45px;
+  border-radius: 15px;
+  border-color: #00000000;
+  background: rgb(152, 188, 244);
+  font-weight: 500;
+  font-size: 15px;
+  transition: width 0.4s ease-out, height 0.4s ease-out, font-size 0.4s ease-out;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.btn--outline:hover{
+  width: 180px;
+  height: 49px;
+  font-size: 17px;
+}

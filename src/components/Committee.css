@@ -1,0 +1,204 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items in the center horizontally */
+  }
+  
+  .individuals{
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .cards__item__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    text-align: left; /* Left align text */
+  }
+  
+  .cards__items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    text-align: left; /* Left align text */
+    align-items: center;
+  
+  }
+  
+  .header{
+    margin-top: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 4.5rem;
+    left: 100px;
+  
+  }
+  
+  .cards__item__img {
+    width: 25vw;
+    height: 17vw;
+    object-fit: cover;
+    margin-bottom: 20px; /* Adjust as needed */
+    size: contain; /* Resize the image to fit within the container */
+  
+  }
+  
+  .cards__item__text {
+    color: #252e48;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left; /* Left align text */
+    margin-top: 8px;
+    width: 45vw;
+    margin-left: 10%;
+    color: rgb(0, 0, 0);
+  }
+  
+  .title {
+    color: #252e48;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 8px;
+    margin-left: 10%;
+    font-weight: 450;
+    color: rgb(0, 0, 0);
+  }
+  
+  .email {
+    color: #252e48;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 8px;
+    margin-left: 10%;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+  }
+  
+  .name {
+    text-align: left; /* Left align text */
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 10%;
+  }
+  
+  .bio-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+  }
+  
+  .us-image {
+    object-fit: cover;
+    overflow: hidden;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+    width: 100%;
+    height: 450px; /* Set the height to 100% of its container */
+    position: relative;
+    z-index: -1;
+    background: url('./images/berkeley-home.jpg') center center;
+    background-size: cover; /* Use cover to fill the container */
+  }
+  
+  /* .rows{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+  } */
+  
+    
+    @media only screen and (max-width: 1060px) {
+      .content__blog__container {
+        width: 84%;
+      }
+      .rows {
+          display: inline;
+          margin: auto;
+        }
+    }
+  
+    @media only screen and (max-width: 160px) {
+      .rows {
+          display: inline;
+          margin: auto;
+          width: 100px;
+        }
+    }
+  
+    @media only screen and (max-width: 760px) {
+      .content__blog__container {
+        width: 84%;
+      }
+      .rows {
+          display: inline;
+          margin: auto;
+        }
+        .cards__item__inner{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          /* margin: auto; */
+      }
+  
+      .cards__item__img {
+        /* position: absolute; */
+        margin-top: 55px;
+        margin-left: 0;
+        right: 0;
+        bottom: 0;
+        width: 256px;
+        height: 400px;
+        object-fit: cover;
+        transition: all 0.2s linear;
+        align-items: center;
+        
+      }
+      .not-rows {
+        display: inline;
+        width: 100%;
+    }
+    .link-wrap {
+      color: #252e48;
+      font-size: 15px;
+      line-height: 17px;
+      text-align: center;
+      align-items: center;
+      margin-top: 15px;
+      width: 256px;
+      margin-left: 10px;
+    }
+  
+    .cards__item__text {
+      color: #252e48;
+      font-size: 12px;
+      line-height: 17px;
+      text-align: center;
+      margin-top: 8px;
+      width: 70%;
+      align-items: center;
+    }
+  
+    .cards__item__text {
+      color: #252e48;
+      font-size: 12px;
+      line-height: 17px;
+      margin-left: 17px;
+      margin-right: 27px;
+      text-align: center;
+      margin-top: 8px;
+      width: 256px;
+    }
+  
+    .text {
+      color: #252e48;
+      line-height: 17px;
+      text-align: center;
+      margin-left: 15px;
+    }
+    
+  }
+  

@@ -1,0 +1,133 @@
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    overflow: hidden;
+    width: 100vh; /* Set the width to 100% of the viewport height */
+    height: 100%; /* Set the height to 100% of its container */
+    position: absolute;
+    z-index: -1;
+}
+
+.image {
+    object-fit: cover;
+    overflow: hidden;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+    width: 100%;
+    height: 500px; /* Set the height to 100% of its container */
+    position: relative;
+    z-index: -1;
+    background: url('./images/berkeley-home.jpg') center center;
+    background-size: cover; /* Use cover to fill the container */
+}
+
+
+.home-intro{
+    text-align: center;
+    color: #fff;
+    font-size: 5rem;
+    left: 100px;
+    /* margin-top: 20vh; */
+}
+
+.home-intro p{
+    margin-bottom: 17px;
+    font-size: 1.5rem;
+    /* color: #fff; */
+    /* font-weight: lighter; */
+}
+
+.sec-letter{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.signature{
+    font-family: 'Alex Brush';
+    font-size: 30px;
+    margin: 0;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+}
+
+.text{
+    margin-left: 5vw;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-gen-image{
+    width: 300px;
+    height: 300px;
+}
+
+.contact-info{
+    text-align: center;
+    color: #fff;
+    font-family: 'Playfair Regular 400 Italic', serif;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    left: 100px;
+    margin-top: 35px;
+}
+
+.contact-info p{
+    margin-bottom: 17px;
+    /* color: #fff; */
+    /* font-weight: lighter; */
+}
+
+.ucbmun-image{
+    width: 25vw; /* Adjust the width as needed */
+    height: auto; /* This will maintain the aspect ratio */
+    margin-bottom: 20px; /* Adjust the margin as needed */
+
+}
+  
+
+@media screen and (max-width: 1560px) {
+    /* .intro{
+        text-align: center;
+        color: #fff;
+        font-family: 'Playfair Display Regular 400 Italic', serif;
+        font-style: italic;
+        font-weight: lighter;
+        font-size: 0.9rem;
+        left: 100px;
+        margin-top: -20px;
+    }
+
+    .contact-info{
+        text-align: center;
+        color: #fff;
+        font-family: 'Playfair Display Regular 400 Italic', serif;
+        font-weight: lighter;
+        text-shadow: inset 0 0 0 1000px rgba(0,0,0,0);
+        font-size: 0.9rem;
+        margin-top: -40px;
+    }
+    
+    .contact-info p{
+        margin-bottom: 17px;
+        color: #fff;
+        font-weight: lighter;
+    }
+    .hero-container {
+        background: url('./images/ocean-image.jpg') center center/cover no-repeat;
+        width: 100%;
+        left: 000px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+    } */
+}
