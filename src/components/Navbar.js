@@ -42,9 +42,9 @@ function Navbar() {
               </Link>
             </li> */}
             <li className='nav-item dropdown'>
-              <Link to='#' className='nav-links' onClick={closeMobileMenu}>
+              <div className='nav-links' onClick={closeMobileMenu}>
                 About
-              </Link>
+              </div>
               <ul className='dropdown-menu'>
                 <li className='dropdown-item'>
                   <Link to='/secretariat' className='dropdown-links' onClick={closeMobileMenu}>
@@ -74,9 +74,9 @@ function Navbar() {
               </ul>
             </li>
             <li className='nav-item dropdown'>
-              <Link to='/resources' className='nav-links' onClick={closeMobileMenu}>
+              <div className='nav-links' onClick={closeMobileMenu}>
                 Resources
-              </Link>
+              </div>
               <ul className='dropdown-menu'>
               <li className='dropdown-item'>
                   <a href="/static/images/AdvisorHandbook.pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'black'}}>Advisor Handbook</a>
