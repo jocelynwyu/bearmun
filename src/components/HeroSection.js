@@ -21,19 +21,20 @@ function HeroSection() {
       </div>
 
       <div className='sec-letter'>
-        <h1 size="sm">
+        <h1 style={{alignItems:'left'}}>
         <br/>
-            Letter from the Secretary General
+            A Letter from the Secretary General:
         </h1>
         <br/>
-        <div className='info'>
+        <div className='home-info'>
         <img className='sec-gen-image' src={require('./images/headshots/Anna.JPEG')} alt='UCBMUN Logo' />
 
-        <div className='text'>
+        <div className='home-text'>
         <p> Dearest delegates and advisors,
           <br/>
           <br/>
           My letter will come soon. In the meantime, enjoy this beautiful photo of my lovely DG.
+          
           <br/>
           <br/>
           Yours,

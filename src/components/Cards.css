@@ -110,32 +110,16 @@
 } */
 
   
-  @media only screen and (max-width: 1060px) {
+  @media only screen and (max-width: 860px) {
     .content__blog__container {
       width: 84%;
     }
-    .rows {
-        display: inline;
-        margin: auto;
+    
+      .individual-cards{
+        flex-direction: column;
+        align-items: center;
       }
-  }
 
-  @media only screen and (max-width: 160px) {
-    .rows {
-        display: inline;
-        margin: auto;
-        width: 100px;
-      }
-  }
-
-  @media only screen and (max-width: 760px) {
-    .content__blog__container {
-      width: 84%;
-    }
-    .rows {
-        display: inline;
-        margin: auto;
-      }
       .cards__item__inner{
         width: 100%;
         display: flex;
@@ -145,59 +129,21 @@
     }
 
     .cards__item__img {
-      /* position: absolute; */
-      margin-top: 55px;
-      margin-left: 0;
-      right: 0;
-      bottom: 0;
-      width: 256px;
-      height: 400px;
-      object-fit: cover;
-      transition: all 0.2s linear;
-      align-items: center;
-      
+      width: 65vw;;
+      height: 48vw;
     }
-    .not-rows {
-      display: inline;
-      width: 100%;
-  }
-  .link-wrap {
-    color: #252e48;
-    font-size: 15px;
-    line-height: 17px;
-    text-align: center;
-    align-items: center;
-    margin-top: 15px;
-    width: 256px;
-    margin-left: 10px;
-  }
 
-  .cards__item__text {
-    color: #252e48;
-    font-size: 12px;
-    line-height: 17px;
-    text-align: center;
-    margin-top: 8px;
-    width: 70%;
-    align-items: center;
-  }
+    .cards__item__text,
+    .email,
+    .name,
+    .title,
+    .bio-text{
+      align-content: center;
+      align-self: center;
+      text-align: center;
+      margin-left: 0;
+      width: 80vw;
 
-  .cards__item__text {
-    color: #252e48;
-    font-size: 12px;
-    line-height: 17px;
-    margin-left: 17px;
-    margin-right: 27px;
-    text-align: center;
-    margin-top: 8px;
-    width: 256px;
-  }
-
-  .text {
-    color: #252e48;
-    line-height: 17px;
-    text-align: center;
-    margin-left: 15px;
-  }
+    }
   
 }

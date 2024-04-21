@@ -136,8 +136,6 @@ function Cards() {
           </div>
           <br/>
           <br/>
-          <br/>
-          <br/>
           <div>
           </div>
           </ul>

@@ -1,23 +1,30 @@
-.cards {
+.committees {
     display: flex;
     flex-direction: column;
     align-items: center; /* Align items in the center horizontally */
   }
   
-  .individuals{
-    width: 70vw;
+  .individual1{
+    width: 50vw;
     display: flex;
     flex-direction: row;
+    align-items: center;
   }
-  
-  .cards__item__inner {
+
+  .individual2{
+    width: 50vw;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .committees__item__inner {
     display: flex;
     flex-direction: column;
     align-items: flex-start; /* Align items to the left */
     text-align: left; /* Left align text */
   }
   
-  .cards__items {
+  .committee__items {
     display: flex;
     flex-direction: column;
     align-items: flex-start; /* Align items to the left */
@@ -32,27 +39,41 @@
     color: #fff;
     font-size: 4.5rem;
     left: 100px;
-  
+    font-weight: 500;
+  }
+ 
+  .text-box-right{
+    position: relative;
+    align-content: center;
+    margin-right: -5vw;
+    width: 45vw;
+    height: auto;
+    padding: 1rem;
+    background: rgb(195, 207, 227);
+  }
+
+  .text-box-left{
+    align-content: center;
+    margin-left: -5vw;
+    width: 45vw;
+    height: auto;
+    padding: 1rem;
+    background: rgb(195, 207, 227);
   }
   
-  .cards__item__img {
-    width: 25vw;
-    height: 17vw;
+  .committees__item__img {
+    width: 35vw;
+    height: 40vh;
     object-fit: cover;
-    margin-bottom: 20px; /* Adjust as needed */
     size: contain; /* Resize the image to fit within the container */
   
   }
   
-  .cards__item__text {
-    color: #252e48;
-    font-size: 14px;
-    line-height: 22px;
-    text-align: left; /* Left align text */
-    margin-top: 8px;
-    width: 45vw;
-    margin-left: 10%;
-    color: rgb(0, 0, 0);
+  .committees__item__text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; /* Align items to the left */
+    
   }
   
   .title {
@@ -60,37 +81,46 @@
     font-size: 20px;
     line-height: 30px;
     text-align: left;
-    margin-top: 8px;
-    margin-left: 10%;
     font-weight: 450;
     color: rgb(0, 0, 0);
   }
   
-  .email {
+
+  .list{
+    display: flex;
+    flex-direction: column;
+  }
+
+.add-level{
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+  .level {
     color: #252e48;
-    font-size: 17px;
+    font-size: 1.75rem;
     line-height: 30px;
     text-align: left;
     margin-top: 8px;
-    margin-left: 10%;
     color: rgb(0, 0, 0);
     font-style: italic;
+    font-weight: 400;
+    width: 50px;
   }
   
-  .name {
+  .committee {
     text-align: left; /* Left align text */
     color: rgb(0, 0, 0);
-    font-size: 30px;
+    font-size: 1.25rem;
     font-weight: 800;
-    margin-left: 10%;
+    padding: 0.5rem;
+    width: 85%;
+    /* display: flex;
+    flex-direction: row; */
   }
-  
-  .bio-text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Align items to the left */
-  }
-  
+
   .us-image {
     object-fit: cover;
     overflow: hidden;
@@ -102,103 +132,168 @@
     background: url('./images/berkeley-home.jpg') center center;
     background-size: cover; /* Use cover to fill the container */
   }
-  
+
   /* .rows{
     display: flex;
     flex-direction: row;
     width: 90%;
   } */
+
+  .back-btn{
+    display: flex;
+    width: 160px;
+    height: 45px;
+    border-radius: 35px;
+    border-color: #00000000;
+    background: rgb(152, 188, 244);
+    font-weight: 500;
+    font-size: 15px;
+    transition: width 0.4s ease-out, height 0.4s ease-out, font-size 0.4s ease-out;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .back-btn:hover{
+    width: 180px;
+    height: 49px;
+    font-size: 17px;
+  }
   
     
-    @media only screen and (max-width: 1060px) {
-      .content__blog__container {
-        width: 84%;
+    @media only screen and (max-width: 1000px) {
+      .committees {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Align items in the center horizontally */
       }
-      .rows {
-          display: inline;
-          margin: auto;
-        }
-    }
-  
-    @media only screen and (max-width: 160px) {
-      .rows {
-          display: inline;
-          margin: auto;
-          width: 100px;
-        }
-    }
-  
-    @media only screen and (max-width: 760px) {
-      .content__blog__container {
-        width: 84%;
-      }
-      .rows {
-          display: inline;
-          margin: auto;
-        }
-        .cards__item__inner{
-          width: 100%;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          /* margin: auto; */
-      }
-  
-      .cards__item__img {
-        /* position: absolute; */
-        margin-top: 55px;
-        margin-left: 0;
-        right: 0;
-        bottom: 0;
-        width: 256px;
-        height: 400px;
-        object-fit: cover;
-        transition: all 0.2s linear;
+      
+      .individual1{
+        width: 50vw;
+        display: flex;
+        flex-direction: row;
         align-items: center;
-        
       }
-      .not-rows {
-        display: inline;
+    
+      .individual2{
+        width: 50vw;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: flex-end;
+      }
+      .committees__item__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Align items to the left */
+        text-align: left; /* Left align text */
+      }
+      
+      .committee__items {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Align items to the left */
+        text-align: left; /* Left align text */
+        align-items: center;
+      
+      }
+      
+      .header{
+        margin-top: 50px;
+        text-align: center;
+        color: #fff;
+        font-size: 4.5rem;
+        left: 100px;
+        font-weight: 500;
+      }
+     
+      .text-box-right{
+        position: relative;
+        align-content: center;
+        margin-right: -5vw;
+        width: 45vw;
+        height: auto;
+        padding: 1rem;
+        background: rgb(195, 207, 227);
+      }
+    
+      .text-box-left{
+        align-content: center;
+        margin-left: -5vw;
+        width: 30vw;
+        height: auto;
+        padding: 1rem;
+        background: rgb(195, 207, 227);
+      }
+      
+      .committees__item__img {
+        width: 50vw;
+        height: 40vh;
+        object-fit: cover;
+        size: contain; /* Resize the image to fit within the container */
+      
+      }
+      
+      .committees__item__text {
+        color: #252e48;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: left; /* Left align text */
+        width: 30vw;
+        color: rgb(0, 0, 0);
+      }
+      
+      .title {
+        color: #252e48;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: left;
+        font-weight: 450;
+        color: rgb(0, 0, 0);
+      }
+      
+    
+      .list{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+      }
+    
+    .add-level{
+      display: flex;
+      flex-direction: column;
+      /* align-items: center; */
+
+    }
+    
+      .level {
+        align-self: center;
+        text-align: center;
+        margin-bottom: 5vh;
         width: 100%;
-    }
-    .link-wrap {
-      color: #252e48;
-      font-size: 15px;
-      line-height: 17px;
-      text-align: center;
-      align-items: center;
-      margin-top: 15px;
-      width: 256px;
-      margin-left: 10px;
-    }
-  
-    .cards__item__text {
-      color: #252e48;
-      font-size: 12px;
-      line-height: 17px;
-      text-align: center;
-      margin-top: 8px;
-      width: 70%;
-      align-items: center;
-    }
-  
-    .cards__item__text {
-      color: #252e48;
-      font-size: 12px;
-      line-height: 17px;
-      margin-left: 17px;
-      margin-right: 27px;
-      text-align: center;
-      margin-top: 8px;
-      width: 256px;
-    }
-  
-    .text {
-      color: #252e48;
-      line-height: 17px;
-      text-align: center;
-      margin-left: 15px;
-    }
+      }
+      
+      .committee {
+        text-align: left; /* Left align text */
+        color: rgb(0, 0, 0);
+        font-size: 1.25rem;
+        font-weight: 800;
+        padding: 0.5rem;
+        /* display: flex;
+        flex-direction: row; */
+      }
+
+
+      .back-btn{
+        width: 120px;
+      }
+      
+      .back-btn:hover{
+        width: 130px;
+        height: 49px;
+        font-size: 17px;
+      }
     
   }
   

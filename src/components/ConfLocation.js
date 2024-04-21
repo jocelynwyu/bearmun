@@ -30,8 +30,8 @@ function ConfSchedule() {
         </p>
         <br/>
         <br/>
-        <div className='schedule'>
-          <div className='day'>
+        <div className='location'>
+          <div className='room'>
             <h1>Committees</h1>
             <br/><p> UNSC 2067</p>
             <br/><p> ADHOC</p>
@@ -47,7 +47,7 @@ function ConfSchedule() {
             <br/><p> UNHRC: Refugees</p>
             <br/>
           </div>
-          <div className='day'>
+          <div className='room'>
             <h1>Locations</h1>
             <br/><p> Some room</p>
             <br/><p> Some room</p>

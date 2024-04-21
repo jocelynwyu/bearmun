@@ -9,7 +9,7 @@ function Policies() {
       <div className='us-image'>
       <div className='header'>
         <br/>
-        Conference Policies
+        Policies
         <br/>
         {/* <img className='ucbmun-image' src={require('./images/ucbmun.png')} alt='UCBMUN Logo' /> */}
       </div>
