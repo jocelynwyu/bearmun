@@ -14,10 +14,11 @@ function CommitteeItem(props) {
       <div className='text-box-left'>
       <div className="committees__item__text">
         <h3 className='committee'>{props.committee}</h3>
-        </div>
+        <div className='chair'>{props.chair}
+</div>
         <p className='back-btn'>Background</p>
 
-      </div>
+      </div></div>
       </div>
       <br/>
         <br/>

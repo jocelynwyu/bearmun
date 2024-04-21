@@ -33,27 +33,32 @@ function Novice() {
         <CommitteeItem
           src={require('../images/committees/unhcr.webp')}
           committee="UNHRC: Protection of Refugee Women and Children"
-        />
+          chair="Chair: An Awesome One"
+       />
         
         <CommitteeItem2
           src={require('../images/committees/iaea.webp')}
-          committee="International Atomic Energy Agency: Peaceful use of Nuclear Energy"
-        />
+          committee="IAEA: Peaceful Use of Nuclear Energy"
+          chair="Chair: An Awesome One"
+          />
         <CommitteeItem
           src={require('../images/committees/who.jpg')}
           committee="WHO: Universal Health Access in Conflict Zones"
-        />
+          chair="Chair: An Awesome One"
+          />
 
         <h1>Crisis</h1>
         <br />
         <CommitteeItem2
           src={require('../images/committees/jurrassic.jpg')}
           committee="InGen Jurassic Park Board of Directors"
+          chair="Chair: An Awesome One"
         />
         <CommitteeItem
           src={require('../images/committees/nato.jpg')}
           committee="Regional: NATO - South China Sea"
-        />
+          chair="Chair: An Awesome One"
+          />
         </div>
         </div>
         <div className='add-level'>
@@ -65,7 +70,8 @@ function Novice() {
         <CommitteeItem2
           src={require('../images/committees/icj.jpg')}
           committee="ICJ: Nicaragua vs US"
-        />
+          chair="Chair: An Awesome One"
+          />
             </div>
 
       </ul>
