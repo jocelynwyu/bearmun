@@ -32,7 +32,7 @@ function ConfSchedule() {
         <br/>
         <div className='schedule'>
           <div className='day'>
-            <h1>Saturday, November __</h1>
+            <h1>Saturday, November 16th</h1>
             <br/>
             <p> 8:00 - 11:00: Registration in Dwinelle Hall Lobby</p>
             <br/>
@@ -47,7 +47,7 @@ function ConfSchedule() {
 
           </div>
           <div className='day'>
-            <h1>Sunday, November __</h1>
+            <h1>Sunday, November 17th</h1>
             <br/>
             <p> 8:00 - 11:00: Registration in Dwinelle Hall Lobby</p>
             <br/><p> 8:00 - 11:00: Registration in Dwinelle Hall Lobby</p>
