@@ -94,11 +94,11 @@ function Cards() {
               bio="I need no introduction."
             />
             <CardItem
-              src={require('./images/headshots/Anna.JPEG')}
+              src={require('./images/headshots/Misato.jpg')}
               name= "Misato Okamoto"
               title= "Under-Secretary General of General Assembly"
               email="You'll never find me. NEVER!!"
-              bio="what are words? what is love?"
+              bio="Misato (she/her/hers) is the USG of General Assembly for BearMUN 2024. She is a junior majoring in Economics and Operations Research and Management Science with a minor in Global Poverty & Practice. Misato is from Kyoto, Japan and came to America when she got into Cal. She joined UCBMUN the Spring semester of her Sophomore year, and she has participated in high school MUN for 3 years as a delegate, staffer, secretariat member, and secretary-general. Outside of UCBMUN, Misato serves as the captain of Cal Dragon Boat, Undergraduate Research Apprentice at UC Berkeley Haas School of Business, Career Officer of Cal Japan Club, and mentor of atelier basi (online programs for unprivileged high school students in Japan applying to prestigious universities abroad). In her free time, she enjoys swimming, paddling, hiking, and watching movies. Misato hopes to provide each of you with a wonderful experience at BearMUN 2024, and she is excited to meeting you all."
             />
           </div>
           <div className='rows'>
@@ -110,11 +110,11 @@ function Cards() {
               bio="Amara Fernandes is a (first? second?)-year Political Economy major with minors in Philosophy and Public Policy. As a Bay Area native and high school speech and debate kid, she joined UC Berkeley Model United Nations in Spring '24 to join a tight-knit group of like-minded individuals as well as further her love of competition. She has been passionate about politics and community engagement since middle school, and MUN is just one extension of that. I will make this better at a future date I genuinely can't think of anything rn plus im focusing on the meeting."
             />
             <CardItem
-              src={require('./images/headshots/Anna.JPEG')}
+              src={require('./images/headshots/Sam.png')}
               name= "Sam Wang"
               title= "Director of Programming and Business Development"
               email="please. finals are too much."
-              bio="*Sam has left the chat*"
+              bio="Sam (he/him/his) is a second-year at UC Berkeley, majoring in computer science and pre-law. He is from Claremont, California (where the Claremont Colleges are) but was born in Taiwan. Sam decided to join Model UN to continue his public speaking arc from high school speech and debate. He is your Director of Business Relations, where he secures business sponsorships to fund the conference. Outside of MUN, Sam enjoys playing violin, writing for the school newspaper, and teaching computer science. He is also passionate about improving student outcomes, working as a research assistant in the School of Education and being a college admissions mentor. Sam is grateful to serve on BearMUN Secretariat, and is looking forward to meeting all of you!"
             />
           </div>
           <div className='rows'>
