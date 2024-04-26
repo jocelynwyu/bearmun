@@ -104,7 +104,7 @@ function Committees() {
               <h1 style={{alignSelf: 'center'}}>
              Specialized Bodies</h1>   
               <br />
-              <div className='add-level'>
+              <div className='dum'>
                 <div className='list'>
                   <CommitteeItem2
                     src={require('../images/committees/unhcr.webp')}
@@ -132,7 +132,7 @@ function Committees() {
               <h1 style={{alignSelf: 'center'}}>
              Crisis Committees</h1>   
               <br />
-              <div className='add-level'>
+              <div className='dum'>
                 <div className='list'>
                   <CommitteeItem2
                     src={require('../images/committees/unhcr.webp')}

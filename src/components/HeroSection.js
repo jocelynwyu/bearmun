@@ -36,8 +36,9 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <div className='image'>
+        <div className='words'>
         <div className='home-intro'>
-          <br />
+          {/* <br /> */}
           BearMUN XXVIII
           <br />
           <p>
@@ -77,9 +78,7 @@ function HeroSection() {
             </div>
           </div>
         </div>
-        <br />
-        <br />
-        <br />
+        </div>
       </div>
 
       <div className='sec-letter'>
