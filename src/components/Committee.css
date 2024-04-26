@@ -32,8 +32,13 @@
     align-items: flex-start; /* Align items to the left */
     text-align: left; /* Left align text */
     justify-content: space-between;
+    margin-top: 10vh;
     /* align-items: center; */
   
+  }
+
+  .com-link{
+    margin-top: 8vh;
   }
   
   .header{
@@ -42,6 +47,7 @@
     font-size: 4.5rem;
     left: 100px;
     font-weight: 500;
+    align-items: center;
   }
  
   .text-box-right{
@@ -92,7 +98,7 @@
     display: flex;
     flex-direction: column;
     margin-right: -20px;
-    align-items: center;
+    /* align-items: center; */
   }
 
 .add-level{
@@ -175,9 +181,9 @@
   }
   
   .back-btn:hover{
-    width: 180px;
-    height: 49px;
-    font-size: 17px;
+    width: 170px;
+    height: 47px;
+    font-size: 16px;
   }
 
   .skill{
@@ -224,7 +230,11 @@
         align-items: flex-start; /* Align items to the left */
         text-align: left; /* Left align text */
         align-items: center;
-      
+        margin-top: 0vh;
+      }
+
+      .com-link{
+        margin-top: 0;
       }
       
       .header{
@@ -285,6 +295,9 @@
         display: flex;
         flex-direction: column;
         width: 80vw;
+        margin-right: 0;
+        margin-top: 10vh;
+        /* align-items: center; */
       }
     
     .add-level{
@@ -309,17 +322,17 @@
         /* display: flex;
         flex-direction: row; */
       }
-
+    }
+    @media only screen and (max-width: 650px){
 
       .back-btn{
         width: 120px;
       }
       
       .back-btn:hover{
-        width: 130px;
-        height: 49px;
-        font-size: 17px;
+        width: 125px;
+        height: 47px;
+        font-size: 16px;
       }
-    
   }
   

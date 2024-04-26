@@ -1,6 +1,9 @@
 {
   "projects": {
-    "jocelynyu": "bearmun-ucbmun"
+    "jocelynyu": "bearmun-ucbmun",
+    "default": "bearmun-ucbmun",
+    "bearmun": "bearmun-ucbmun",
+    "bear-mun": "bearmun-ucbmun"
   },
   "targets": {},
   "etags": {}

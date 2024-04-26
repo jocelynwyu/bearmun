@@ -17,16 +17,11 @@ function Committees() {
         <br />
         <br />
       </div>
-      <br />
-      <br />
-      <br />
+      
       <ul className='committee__items'>
         <br/>
         <br/>
         <div className='com-link'>
-          <br/>
-          <br/>
-          <br/>
               <Link to='/unhcr' className='add-level'>
               UNHCR: Refugees
               </Link>
@@ -73,10 +68,10 @@ function Committees() {
               </Link>
               </div>
             <div className='list'>
-              <h1>General Assemblies</h1>
-              <br />
+            <h1 style={{alignSelf: 'center'}}>
+              General Assemblies</h1>              <br />
               <div className='coms'>
-                <div className='list'>
+                <div className='dum'>
                   <CommitteeItem
                     src={require('../images/committees/unhcr.webp')}
                     committee="UNHRC: Protection of Refugee Women and Children"
@@ -106,7 +101,8 @@ function Committees() {
                   <br />
                 </div>
               </div>
-              <h1>Specialized Bodies</h1>
+              <h1 style={{alignSelf: 'center'}}>
+             Specialized Bodies</h1>   
               <br />
               <div className='add-level'>
                 <div className='list'>
@@ -133,7 +129,8 @@ function Committees() {
                   <br />
                 </div>
               </div>
-              <h1>Crisis Committees</h1>
+              <h1 style={{alignSelf: 'center'}}>
+             Crisis Committees</h1>   
               <br />
               <div className='add-level'>
                 <div className='list'>

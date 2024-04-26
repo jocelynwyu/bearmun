@@ -10,6 +10,7 @@ import Policies from './components/pages/Policies';
 import FAQ from './components/pages/FAQ';
 import Committees from './components/pages/Committees';
 import Footer from './components/Footer';
+// import Committee from './components/pages/Committee';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -43,7 +44,7 @@ function App() {
           <Route path='/policies' exact element={<Policies />} />
           <Route path='/faq' exact element={<FAQ />} />
           <Route path='/committees' exact element={<Committees />} />
-          {/* <Route path='/advanced-committees' exact element={<Advanced />} /> */}
+          {/* <Route path='/committees' exact element={<Committee />} /> */}
         </Routes>
         <Footer />
       </Router>
