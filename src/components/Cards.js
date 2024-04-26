@@ -7,7 +7,6 @@ function Cards() {
     <div className='cards'>
             <div className='us-image'>
       <div className='header'>
-        <br/>
         Secretariat
         <br/>
         {/* <img className='ucbmun-image' src={require('./images/ucbmun.png')} alt='UCBMUN Logo' /> */}
@@ -66,11 +65,12 @@ function Cards() {
           </div>
           <div className='rows'>
             <CardItem
-              src={require('./images/headshots/Anna.JPEG')}
+              src={require('./images/headshots/Sophia.jpeg')}
               name= "Sophia Martinez"
-              title= "Chief of Staff, Internal"
+              title= "Chief of Staff, External"
               email="wait. when did we get emails?"
-              bio="bio approaching?"
+              bio="Sophia Martinez (she/her) is an English major from Orange County, California, and will be a sophomore this upcoming academic year. She joined Berkeley's Model United Nations club to better her speaking abilities and become more involved with this campus. With how many great people she has found through this club, she wanted to become more involved as a new member and join the Secretariat for BEARMUN! Some other groups she is involved with are Berkeley PAD and the ASUC Student Union, where she works as a lead barista. Outside of academics, she loves listening to music (Fiona Apple and Lana Del Rey are some of her favorites!) and playing tennis with her coworkers. She is incredibly excited to work with everyone and ensure BearMUN is fun and successful for all groups involved.
+              bio approaching?"
             />
             <CardItem
               src={require('./images/headshots/Marvin.jpeg')}
@@ -107,7 +107,7 @@ function Cards() {
               name= "Amara Fernandes"
               title= "Under-Secretary General of Specialized Bodies"
               email="don't ask questions."
-              bio="A queen needs no introductions."
+              bio="Amara Fernandes is a (first? second?)-year Political Economy major with minors in Philosophy and Public Policy. As a Bay Area native and high school speech and debate kid, she joined UC Berkeley Model United Nations in Spring '24 to join a tight-knit group of like-minded individuals as well as further her love of competition. She has been passionate about politics and community engagement since middle school, and MUN is just one extension of that. I will make this better at a future date I genuinely can't think of anything rn plus im focusing on the meeting."
             />
             <CardItem
               src={require('./images/headshots/Anna.JPEG')}

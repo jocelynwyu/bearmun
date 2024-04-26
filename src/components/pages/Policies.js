@@ -8,7 +8,6 @@ function Policies() {
     <div className='container'>
       <div className='us-image'>
       <div className='header'>
-        <br/>
         Policies
         <br/>
         {/* <img className='ucbmun-image' src={require('./images/ucbmun.png')} alt='UCBMUN Logo' /> */}

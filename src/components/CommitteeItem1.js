@@ -14,7 +14,7 @@ function CommitteeItem(props) {
       <div className='text-box-left'>
       <div className="committees__item__text">
         <h3 className='committee'>{props.committee}</h3>
-        <div className='chair'>{props.chair}
+        <div className='skill'>{props.skill}
 </div>
         <p className='back-btn'>Background</p>
 

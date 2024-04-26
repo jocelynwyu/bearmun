@@ -17,6 +17,8 @@
     flex-direction: row-reverse;
     align-items: center;
   }
+
+
   .committees__item__inner {
     display: flex;
     flex-direction: column;
@@ -26,15 +28,15 @@
   
   .committee__items {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: flex-start; /* Align items to the left */
     text-align: left; /* Left align text */
-    align-items: center;
+    justify-content: space-between;
+    /* align-items: center; */
   
   }
   
   .header{
-    margin-top: 50px;
     text-align: center;
     color: #fff;
     font-size: 4.5rem;
@@ -89,14 +91,28 @@
   .list{
     display: flex;
     flex-direction: column;
+    margin-right: -20px;
+    align-items: center;
   }
 
 .add-level{
-  width: 80vw;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
+  margin-right: 100px;
+  text-decoration: none;
+  color: rgb(130, 130, 130);
+  font-size: 1rem;
+  margin-top: 10px;
+  /* width: 200px; */
 }
+
+.add-level:hover {
+  color: black;
+  font-size: 1.05rem;
+  transition: font-size 0.5s ease; /* Only transition font size */
+}
+
 
   .level {
     color: #252e48;
@@ -108,6 +124,7 @@
     font-style: italic;
     font-weight: 400;
     width: 250px;
+
   }
   
   .committee {
@@ -121,6 +138,9 @@
   }
 
   .us-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     object-fit: cover;
     overflow: hidden;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
@@ -160,11 +180,10 @@
     font-size: 17px;
   }
 
-  .chair{
+  .skill{
     text-align: left; /* Left align text */
     color: rgb(100, 100, 100);
     font-size: 0.75rem;
-    font-style: italic;
     margin-top: 5px;
     margin-bottom: 5px;
     width: 85%;
@@ -209,7 +228,6 @@
       }
       
       .header{
-        margin-top: 50px;
         text-align: center;
         color: #fff;
         font-size: 4.5rem;

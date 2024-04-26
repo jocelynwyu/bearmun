@@ -10,7 +10,6 @@ function ConfSchedule() {
       {/* <image src='images/ocean-image.jpg'/> */}
       <div className='us-image'>
       <div className='header'>
-        <br/>
         Locations
         <br/>
         {/* <img className='ucbmun-image' src={require('./images/ucbmun.png')} alt='UCBMUN Logo' /> */}

@@ -36,15 +36,15 @@ function Navbar() {
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            {/* <li className='nav-item'>
+            <li className='nav-item'>
               <Link to='/home' className='nav-links' onClick={closeMobileMenu}>
                 Home
               </Link>
-            </li> */}
+            </li>
             <li className='nav-item dropdown'>
-              <div className='nav-links' onClick={closeMobileMenu}>
+              <Link to='#' className='nav-links' onClick={closeMobileMenu}>
                 About
-              </div>
+              </Link>
               <ul className='dropdown-menu'>
                 <li className='dropdown-item'>
                   <Link to='/secretariat' className='dropdown-links' onClick={closeMobileMenu}>
@@ -102,10 +102,10 @@ function Navbar() {
               </ul>
             </li>
             <li className='nav-item dropdown'>
-              <Link to='/novice-committees' className='nav-links' onClick={closeMobileMenu}>
-                Novice Committees
+              <Link to='/committees' className='nav-links' onClick={closeMobileMenu}>
+                Committees
               </Link>
-              <ul className='dropdown-menu'>
+              {/* <ul className='dropdown-menu'>
               <p style={{ fontStyle: 'italic', opacity: '0.6', marginTop: '15px', marginBottom: '15px' }}>
                         General Assembly
                     </p>
@@ -150,62 +150,9 @@ function Navbar() {
                   ICJ: Nicaragua vs US
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
             </li>
-            <li className='nav-item dropdown'>
-              <Link to='/advanced-committees' className='nav-links' onClick={closeMobileMenu}>
-                Advanced Committees
-              </Link>
-              <ul className='dropdown-menu'>
-              <p style={{ fontStyle: 'italic', opacity: '0.6', marginTop: '15px', marginBottom: '15px' }}>
-                        General Assembly
-                    </p>
-
-                <li className='dropdown-item'>
-                  <Link to='/unhcr' className='dropdown-links' onClick={closeMobileMenu}>
-                  6th Legal: Biotechnology
-
-
-                  </Link>
-                </li>
             
-                <p style={{ fontStyle: 'italic', opacity: '0.6', marginTop: '15px', marginBottom: '15px' }}>
-                        Crisis
-                    </p>
-                    <li className='dropdown-item'>
-                  <Link to='/who' className='dropdown-links' onClick={closeMobileMenu}>
-                  ICC: Pablo Escobar
-                  </Link>
-                </li>
-
-                <li className='dropdown-item'>
-                  <Link to='/about/adhoc' className='dropdown-links' onClick={closeMobileMenu}>
-                  Crisis AdHoc
-                  </Link>
-                </li>
-                <li className='dropdown-item'>
-                  <Link to='/nato' className='dropdown-links' onClick={closeMobileMenu}>
-                  UNSC 2067
-                  </Link>
-                </li>
-                <p style={{ fontStyle: 'italic', opacity: '0.6', marginTop: '15px', marginBottom: '15px' }}>
-                    Joint Crisis
-                    </p>
-                <li className='dropdown-item'>
-                    
-                  <Link to='/about/barbie' className='dropdown-links' onClick={closeMobileMenu}>
-                  JCC: Barbie
-                  </Link>
-                </li>
-                <li className='dropdown-item'>
-                    
-                  <Link to='/about/oppenheimer' className='dropdown-links' onClick={closeMobileMenu}>
-                  JCC: Oppenheimer
-                  </Link>
-                </li>
-                
-              </ul>
-            </li>
            <li className='nav-item'>
               <Link to='/registration' className='nav-links' onClick={closeMobileMenu}>
                 <button className="btn--outline">Registration</button>
