@@ -195,9 +195,35 @@
     margin-bottom: 5px;
     width: 85%;
   }
+
+  .com-icon {
+   display: none;
+  }
   
+  .com-menu {
+  display: none;
+}
+
+.com-menu.active {
+  display: block;
+}
+
+.com-menu li {
+  list-style-type: none;
+}
+
+/* Remove the mobile-specific styles and keep the default styles for desktop */
+.com-menu {
+  display: none;
+}
+
+/* Keep the default styles for desktop */
+.com-menu.active {
+  display: block;
+}
+
     
-    @media only screen and (max-width: 1000px) {
+    @media only screen and (max-width: 900px) {
       .committees {
         display: flex;
         flex-direction: column;
@@ -230,12 +256,13 @@
         flex-direction: column;
         align-items: flex-start; /* Align items to the left */
         text-align: left; /* Left align text */
-        align-items: center;
         margin-top: 0vh;
       }
 
       .com-link{
+        width: 100%;
         margin-top: 0;
+        margin-bottom: 50px;
       }
       
       .header{
@@ -297,7 +324,7 @@
         flex-direction: column;
         width: 80vw;
         margin-right: 0;
-        margin-top: 10vh;
+        /* margin-top: 10vh; */
         /* align-items: center; */
       }
     
@@ -323,6 +350,39 @@
         /* display: flex;
         flex-direction: row; */
       }
+
+    
+        .com-icon {
+          display: flex; /* Show menu icon for mobile */
+          font-size: 1.25rem;
+          color: #000000;
+          margin-left: 10px;
+        }
+        
+        .com
+
+        .com-menu {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          position: relative; /* Change position to relative */
+          opacity: 1;
+          transition: all 0.5s ease-out;
+          z-index: 1;
+          align-content: center;
+          text-align: center;
+          margin-top: 20px; /* Add margin to push the other section down */
+        }
+      
+        .com-menu.active {
+          left: 0;
+          opacity: 0.9;
+          transition: all 0.5s ease;
+          height: auto; /* Changed height to auto for mobile */
+        }
+      
+      
+
     }
     @media only screen and (max-width: 650px){
 
