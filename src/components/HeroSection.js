@@ -88,7 +88,7 @@ function HeroSection() {
         </h1>
         <br />
         <div className='home-info'>
-          <img className='sec-gen-image' src={require('./images/headshots/Anna.JPEG')} alt='UCBMUN Logo' />
+          <img className='sec-gen-image' src={require('./images/headshots/sara.JPG')} alt='UCBMUN Logo' />
 
           <div className='home-text'>
             <p> Dearest delegates and advisors,
