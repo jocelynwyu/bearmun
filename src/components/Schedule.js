@@ -22,7 +22,10 @@ function ConfSchedule() {
       <br/>
       <br/>
       <div className='letter'>
-      <p>
+        <h1>
+            Coming soon!
+        </h1>
+      {/* <p>
         <br/>
             All times are in Pacific Standard Time, tentative, and subject to minor changes.
             <br/>
@@ -59,7 +62,7 @@ function ConfSchedule() {
             <br/>
           </div>
         </div>
-        <br/>
+        <br/> */}
       </div>
       <br/>
       <br/>

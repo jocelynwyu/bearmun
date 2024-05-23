@@ -22,13 +22,18 @@ function ConfSchedule() {
       <br/>
       <br/>
       <div className='letter'>
-      <p>
+      <h1>
+            Coming soon!
+        </h1>
+      {/* <p>
+      
         <br/>
+      
             Please note that sometimes locations will change.
-
         </p>
         <br/>
         <br/>
+        
         <div className='location'>
           <div className='room'>
             <h1>Committees</h1>
@@ -64,7 +69,7 @@ function ConfSchedule() {
             <br/>
           </div>
         </div>
-        <br/>
+        <br/> */}
       </div>
       <br/>
       <br/>
