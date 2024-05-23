@@ -138,28 +138,28 @@ function Committees() {
           <div className="coms">
             <div className="dum">
               <CommitteeItem
-                src={require("../images/committees/unhcr.webp")}
+                src={require("../images/committees/ga/unhrc refugees.jpg")}
                 committee="UNHRC: Protection of Refugee Women and Children"
                 skill="Skill Level: Novice"
               />
               <CommitteeItem2
-                src={require("../images/committees/iaea.webp")}
+                src={require("../images/committees/ga/iaea nuclear energy.jpg")}
                 committee="IAEA: Peaceful Use of Nuclear Energy"
                 skill="Skill Level: Intermediate"
               />
 
               <CommitteeItem
-                src={require("../images/committees/nato.jpg")}
+                src={require("../images/committees/ga/6th legal biotech.jpg")}
                 committee="6th Legal: Legal Implications of Biotechnology (Cloning)"
                 skill="Skill Level: Intermediate"
               />
               <CommitteeItem2
-                src={require("../images/committees/jurrassic.jpg")}
+                src={require("../images/committees/ga/nato south china sea.jpg")}
                 committee="Regional: NATO - South China Sea"
                 skill="Skill Level: Intermediate"
               />
               <CommitteeItem
-                src={require("../images/committees/who.jpg")}
+                src={require("../images/committees/ga/unoosa mars.png")}
                 committee="UNOOSA 2050: Mars Exploration and Resource Extraction"
                 skill="Skill Level: Advanced"
               />
@@ -171,22 +171,27 @@ function Committees() {
           <div className="dum">
             <div className="list">
               <CommitteeItem2
-                src={require("../images/committees/unhcr.webp")}
+                src={require("../images/committees/spec/les grandes tables du monde.jpg")}
                 committee=" Les Grandes Tables du Monde"
                 skill="Skill Level: Novice"
               />
               <CommitteeItem
-                src={require("../images/committees/iaea.webp")}
+                src={require("../images/committees/spec/taylor swift presidential campaign.jpg")}
                 committee="Taylor Swift’s Presidential Campaign "
                 skill="Skill Level: Novice"
               />
               <CommitteeItem2
-                src={require("../images/committees/jurrassic.jpg")}
-                committee=" ICJ: Nicaragua vs US"
+                src={require("../images/committees/spec/f1.avif")}
+                committee="Formula 1"
                 skill="Skill Level: Intermediate"
               />
               <CommitteeItem
-                src={require("../images/committees/nato.jpg")}
+                src={require("../images/committees/spec/disney bod.jpg")}
+                committee="Disney Board of Directors"
+                skill="Skill Level: Intermediate"
+              />
+              <CommitteeItem2
+                src={require("../images/committees/spec/oj simpson.webp")}
                 committee="LACSC: The Trial of OJ Simpson"
                 skill="Skill Level: Advanced"
               />
@@ -197,34 +202,34 @@ function Committees() {
           <br />
           <div className="dum">
             <div className="list">
-              <CommitteeItem2
-                src={require("../images/committees/unhcr.webp")}
-                committee="Percy Jackson — The Heroes of Olympus"
-                skill="Skill Level: Novice"
-              />
               <CommitteeItem
-                src={require("../images/committees/iaea.webp")}
+                src={require("../images/committees/crisis/barbenheimer.jpg")}
                 committee="Barbenheimer "
                 skill="Skill Level: Novice"
               />
               <CommitteeItem2
-                src={require("../images/committees/who.jpg")}
+                src={require("../images/committees/crisis/jcc adani.jpg")}
                 committee="JCC: Adani Group"
+                skill="Skill Level: Novice"
+              />
+              <CommitteeItem
+                src={require("../images/committees/crisis/jcc cbi.jpg")}
+                committee=" JCC: Central Bureau of Investigation"
+                skill="Skill Level: Novice"
+              />
+              <CommitteeItem2
+                src={require("../images/committees/crisis/percy jackson.webp")}
+                committee="Percy Jackson — The Heroes of Olympus"
                 skill="Skill Level: Intermediate"
               />
               <CommitteeItem
-                src={require("../images/committees/jurrassic.jpg")}
-                committee=" JCC: Central Bureau of Investigation"
-                skill="Skill Level: Intermediate"
-              />
-              <CommitteeItem2
-                src={require("../images/committees/nato.jpg")}
+                src={require("../images/committees/crisis/gavel adhoc.jpg")}
                 committee="ADHOC: Mystery Crisis"
                 skill="Skill Level: Advanced"
               />
-              <CommitteeItem
-                src={require("../images/committees/nato.jpg")}
-                committee="UNSC: Cyprus 1964 - Present / Morocco Wall"
+              <CommitteeItem2
+                src={require("../images/committees/crisis/unsc cyprus.webp")}
+                committee="UNSC: Cyprus 1964 - Present"
                 skill="Skill Level: Advanced"
               />
               <br />

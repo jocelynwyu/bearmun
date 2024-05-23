@@ -45,7 +45,9 @@ function Cards() {
               name= "Annika Seo"
               title= "Chief of Staff, Generalized"
               email="who knows my email, really? not me"
-              bio="Who needs intros, anyway?"
+              bio="Annika (she/her) is a third-year at UC Berkeley doubling in Economics and Data Science. She is from San Ramon, CA. She has been active in Model UN since her freshman year of high school, and has grown both as a delegate and an individual through her experience on the collegiate circuit. Annika is passionate about advocacy and also serves as a caseworker for the ASUC Student Advocate's Office. In her free time, she enjoys drinking too much coffee, watching HIMYM and F1, and listening to music and podcasts. 
+
+              If you have any questions about conference, MUN in general, or college, feel free to email Annika at annikaseo@berkeley.edu."
             />
             <CardItem
               src={require('./images/headshots/Jomari.jpg')}

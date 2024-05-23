@@ -42,9 +42,9 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item dropdown'>
-              <Link to='#' className='nav-links' onClick={closeMobileMenu}>
+              <div className='nav-links' onClick={closeMobileMenu}>
                 About
-              </Link>
+              </div>
               <ul className='dropdown-menu'>
                 <li className='dropdown-item'>
                   <Link to='/secretariat' className='dropdown-links' onClick={closeMobileMenu}>

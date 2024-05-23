@@ -155,7 +155,7 @@
     height: 450px; /* Set the height to 100% of its container */
     position: relative;
     z-index: -1;
-    background: url('./images/berkeley-home.jpg') center center;
+    background: url('./images/committee.jpg') center center;
     background-size: cover; /* Use cover to fill the container */
   }
 
