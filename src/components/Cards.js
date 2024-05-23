@@ -41,7 +41,7 @@ function Cards() {
           </div>
           <div className='rows'>
             <CardItem
-              src={require('./images/headshots/Anna.JPEG')}
+              src={require('./images/headshots/annika.png')}
               name= "Annika Seo"
               title= "Chief of Staff, Generalized"
               email="who knows my email, really? not me"
@@ -89,11 +89,11 @@ function Cards() {
           </div>
           <div className='rows'>
             <CardItem
-              src={require('./images/headshots/Anna.JPEG')}
+              src={require('./images/headshots/rishit.jpeg')}
               name= "Rishit Pradhan"
               title= "Under-Secretary General of Crisis"
               email="Please hesitate to ask."
-              bio="I need no introduction."
+              bio="Rishit Pradhan is a second-year student at UC Berkeley studying Chemical Biology and minoring in Statistics from Bakersfield, California. He has done MUN for the past five years in high school as well as on the collegiate circuit. Notably he has awarded at Harvard, McGill, and UPenn. Rishit joined BearMUN because he loves becoming more involved in club activities. Outside of BearMUN, he can be found playing tennis and eating. Rishit is excited for this upcoming BearMUN and looks forward to meeting you all!"
             />
             <CardItem
               src={require('./images/headshots/Misato.jpg')}
@@ -125,15 +125,17 @@ function Cards() {
               name= "Jade Mon"
               title= "Director of Finance"
               email="leave me alone :("
-              bio="i'm running out of bio ideas. help."
+              bio="Jade Mon is a third year student at UC Berkeley, double majoring in computer science and data science, from the Bay Area. She joined UCBMUN in her freshman fall semester, having served as an Assistant Crisis Director for BearMUN 2022’s Space Pirates committee, BearMUN 2023’s Director of Technology and chair for Hogwarts: Board of Governors. Outside of Model UN, she can be found biking, reading, writing or hanging out with friends. She’s excited to see the unique ideas and individual development of every delegate attending BearMUN 2024."
             />
             <CardItem
-              src={require('./images/headshots/Anna.JPEG')}
+              src={require('./images/headshots/jocelyn.png')}
               name= "Jocelyn Yu"
               title= "Director of Technology"
               email="currently shaking sobbing crying."
-              bio="i coded this website in like 2 days from scratch are you proud of me :)"
-              
+              bio="Jocelyn is a junior majoring in Computer Science. Originally from San Francisco, she's called the Bay her home almost her entire life.
+              She joined UCBMUN after having enjoyed her high school's MUN and Parli clubs since her freshman year. Outside of MUN, she's part of the course
+              staff for Cubstart, a course on focusing on web development, and an RA. In her free time, she enjoys writing, reading, and the occasional graphic
+              design."
             />
           </div>
           <br/>

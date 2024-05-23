@@ -68,13 +68,13 @@ function Committees() {
             </li>
             <li onClick={closeMobileMenu}>
               <Link to="/legal" className="add-level">
-                6th Legal: Biotechnology
+              Regional: NATO
               </Link>
             </li>
             <li onClick={closeMobileMenu}>
               <Link to="/regional" className="add-level">
-                Regional: NATO
-              </Link>
+              6th Legal: Biotechnology
+                            </Link>
             </li>
             <li onClick={closeMobileMenu}>
               <Link to="/unoosa" className="add-level">
@@ -83,27 +83,27 @@ function Committees() {
             </li>
             <li onClick={closeMobileMenu}>
               <Link to="/tables" className="add-level">
-                Tables du Monde
+              President Taylor Swift
               </Link>
             </li>
             <li onClick={closeMobileMenu}>
               <Link to="/taylor" className="add-level">
-                President Taylor Swift
+                Tables du Monde
               </Link>
             </li>
             <li onClick={closeMobileMenu}>
-              <Link to="/icj" className="add-level">
-                ICJ: Nicaragua vs US
+              <Link to="/formula1" className="add-level">
+                Formula 1
+              </Link>
+            </li>
+            <li onClick={closeMobileMenu}>
+              <Link to="/disney" className="add-level">
+                Disney Board
               </Link>
             </li>
             <li onClick={closeMobileMenu}>
               <Link to="/ojsimpson" className="add-level">
                 LA Court: OJ Simpson
-              </Link>
-            </li>
-            <li onClick={closeMobileMenu}>
-              <Link to="/percyjackson" className="add-level">
-                Percy Jackson
               </Link>
             </li>
             <li onClick={closeMobileMenu}>
@@ -122,13 +122,18 @@ function Committees() {
               </Link>
             </li>
             <li onClick={closeMobileMenu}>
-              <Link to="/adhoc" className="add-level">
-                ADHOC: Mystery Crisis{" "}
+              <Link to="/percyjackson" className="add-level">
+                Percy Jackson
               </Link>
             </li>
             <li onClick={closeMobileMenu}>
               <Link to="/unsc" className="add-level">
                 UNSC: Cyprus
+              </Link>
+            </li>
+            <li onClick={closeMobileMenu}>
+              <Link to="/adhoc" className="add-level">
+                ADHOC
               </Link>
             </li>
           </ul>
@@ -149,13 +154,13 @@ function Committees() {
               />
 
               <CommitteeItem
-                src={require("../images/committees/ga/6th legal biotech.jpg")}
-                committee="6th Legal: Legal Implications of Biotechnology (Cloning)"
+                src={require("../images/committees/ga/nato south china sea.jpg")}
+                committee="Regional: NATO - South China Sea"
                 skill="Skill Level: Intermediate"
               />
               <CommitteeItem2
-                src={require("../images/committees/ga/nato south china sea.jpg")}
-                committee="Regional: NATO - South China Sea"
+                src={require("../images/committees/ga/6th legal biotech.jpg")}
+                committee="(Double) 6th Legal: Implications of Biotechnology and Biosecurity"
                 skill="Skill Level: Intermediate"
               />
               <CommitteeItem
@@ -171,18 +176,18 @@ function Committees() {
           <div className="dum">
             <div className="list">
               <CommitteeItem2
-                src={require("../images/committees/spec/les grandes tables du monde.jpg")}
-                committee=" Les Grandes Tables du Monde"
-                skill="Skill Level: Novice"
-              />
-              <CommitteeItem
                 src={require("../images/committees/spec/taylor swift presidential campaign.jpg")}
                 committee="Taylor Swift’s Presidential Campaign "
                 skill="Skill Level: Novice"
               />
+              <CommitteeItem
+                src={require("../images/committees/spec/les grandes tables du monde.jpg")}
+                committee=" Les Grandes Tables du Monde"
+                skill="Skill Level: Novice"
+              />
               <CommitteeItem2
                 src={require("../images/committees/spec/f1.avif")}
-                committee="Formula 1"
+                committee="Global Impact of Formula 1"
                 skill="Skill Level: Intermediate"
               />
               <CommitteeItem
@@ -223,13 +228,13 @@ function Committees() {
                 skill="Skill Level: Intermediate"
               />
               <CommitteeItem
-                src={require("../images/committees/crisis/gavel adhoc.jpg")}
-                committee="ADHOC: Mystery Crisis"
+                src={require("../images/committees/crisis/unsc cyprus.webp")}
+                committee="UNSC: Reunification of Cyprus"
                 skill="Skill Level: Advanced"
               />
               <CommitteeItem2
-                src={require("../images/committees/crisis/unsc cyprus.webp")}
-                committee="UNSC: Cyprus 1964 - Present"
+                src={require("../images/committees/crisis/gavel adhoc.jpg")}
+                committee="ADHOC"
                 skill="Skill Level: Advanced"
               />
               <br />
