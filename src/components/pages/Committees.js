@@ -160,7 +160,7 @@ function Committees() {
               />
               <CommitteeItem2
                 src={require("../images/committees/ga/6th legal biotech.jpg")}
-                committee="(Double) 6th Legal: Implications of Biotechnology and Biosecurity"
+                committee="(Double Del) 6th Legal: Implications of Biotechnology and Biosecurity"
                 skill="Skill Level: Intermediate"
               />
               <CommitteeItem
