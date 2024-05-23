@@ -21,7 +21,7 @@ function Cards() {
             <ul className='cards__items'>
             <div className='rows'>
             <CardItem
-              src={require('./images/headshots/Anna.JPEG')}
+              src={require('./images/headshots/sara.JPG')}
               name= "Sara Khemani"
               title= "Secretary General"
               email="idk"
@@ -41,7 +41,7 @@ function Cards() {
           </div>
           <div className='rows'>
           <CardItem
-              src={require('./images/headshots/Sophia.jpeg')}
+              src={require('./images/headshots/sophia.png')}
               name= "Sophia Martinez"
               title= "Chief of Staff, External"
               email="wait. when did we get emails?"
@@ -76,7 +76,7 @@ function Cards() {
               and is glad to be your BearMUN’s Chief of Staff Internal!"
             />
             <CardItem
-              src={require('./images/headshots/rishit.jpeg')}
+              src={require('./images/headshots/rishit.jpg')}
               name= "Rishit Pradhan"
               title= "Under-Secretary General of Crisis"
               email="Please hesitate to ask."
@@ -86,7 +86,7 @@ function Cards() {
           </div>
           <div className='rows'>
           <CardItem
-              src={require('./images/headshots/Marvin.jpeg')}
+              src={require('./images/headshots/marvin.jpg')}
               name= "Marvin Yen"
               title= "Under-Secretary General of Regional Assembly"
               email="DON'T EMAIL ME"
@@ -98,7 +98,7 @@ function Cards() {
               watch cute cat videos."
             />
             <CardItem
-              src={require('./images/headshots/Anna.JPEG')}
+              src={require('./images/headshots/amara.png')}
               name= "Amara Fernandes"
               title= "Under-Secretary General of Specialized Bodies"
               email="don't ask questions."
@@ -120,9 +120,9 @@ function Cards() {
               title= "Director of Technology"
               email="currently shaking sobbing crying."
               bio="Jocelyn is a junior majoring in Computer Science. Originally from San Francisco, she's called the Bay her home almost her entire life.
-              She joined UCBMUN after having enjoyed her high school's MUN and Parli clubs since her freshman year. Outside of MUN, she's part of the course
+              She joined UCBMUN after having enjoyed her high school's MUN and Parli clubs in her freshman year. Outside of MUN, she's part of the course
               staff for Cubstart, a course on focusing on web development, and an RA. In her free time, she enjoys writing, reading, and the occasional graphic
-              design."
+              design. She's excited for this upcoming BearMUN, and hopes you all enjoy the conference!"
             />
             
           </div>
@@ -135,7 +135,7 @@ function Cards() {
               bio="Sam (he/him/his) is a second-year at UC Berkeley, majoring in computer science and pre-law. He is from Claremont, California (where the Claremont Colleges are) but was born in Taiwan. Sam decided to join Model UN to continue his public speaking arc from high school speech and debate. He is your Director of Business Relations, where he secures business sponsorships to fund the conference. Outside of MUN, Sam enjoys playing violin, writing for the school newspaper, and teaching computer science. He is also passionate about improving student outcomes, working as a research assistant in the School of Education and being a college admissions mentor. Sam is grateful to serve on BearMUN Secretariat, and is looking forward to meeting all of you!"
             />
             <CardItem
-              src={require('./images/headshots/Anna.JPEG')}
+              src={require('./images/headshots/jade.png')}
               name= "Jade Mon"
               title= "Director of Finance"
               email="leave me alone :("
