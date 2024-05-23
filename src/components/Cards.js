@@ -40,6 +40,14 @@ function Cards() {
             />
           </div>
           <div className='rows'>
+          <CardItem
+              src={require('./images/headshots/Sophia.jpeg')}
+              name= "Sophia Martinez"
+              title= "Chief of Staff, External"
+              email="wait. when did we get emails?"
+              bio="Sophia Martinez (she/her) is an English major from Orange County, California, and will be a sophomore this upcoming academic year. She joined Berkeley's Model United Nations club to better her speaking abilities and become more involved with this campus. With how many great people she has found through this club, she wanted to become more involved as a new member and join the Secretariat for BEARMUN! Some other groups she is involved with are Berkeley PAD and the ASUC Student Union, where she works as a lead barista. Outside of academics, she loves listening to music (Fiona Apple and Lana Del Rey are some of her favorites!) and playing tennis with her coworkers. She is incredibly excited to work with everyone and ensure BearMUN is fun and successful for all groups involved.
+              bio approaching?"
+            />
             <CardItem
               src={require('./images/headshots/annika.png')}
               name= "Annika Seo"
@@ -49,7 +57,10 @@ function Cards() {
 
               If you have any questions about conference, MUN in general, or college, feel free to email Annika at annikaseo@berkeley.edu."
             />
-            <CardItem
+            
+          </div>
+          <div className='rows'>
+          <CardItem
               src={require('./images/headshots/Jomari.jpg')}
               name= "Jomari Encarnacion"
               title= "Chief of Staff, Internal"
@@ -64,17 +75,17 @@ function Cards() {
               bad rom-coms), and cooking. She is enthusiastic to see everyone at BearMUN this year
               and is glad to be your BearMUN’s Chief of Staff Internal!"
             />
+            <CardItem
+              src={require('./images/headshots/rishit.jpeg')}
+              name= "Rishit Pradhan"
+              title= "Under-Secretary General of Crisis"
+              email="Please hesitate to ask."
+              bio="Rishit Pradhan is a second-year student at UC Berkeley studying Chemical Biology and minoring in Statistics from Bakersfield, California. He has done MUN for the past five years in high school as well as on the collegiate circuit. Notably he has awarded at Harvard, McGill, and UPenn. Rishit joined BearMUN because he loves becoming more involved in club activities. Outside of BearMUN, he can be found playing tennis and eating. Rishit is excited for this upcoming BearMUN and looks forward to meeting you all!"
+            />
+            
           </div>
           <div className='rows'>
-            <CardItem
-              src={require('./images/headshots/Sophia.jpeg')}
-              name= "Sophia Martinez"
-              title= "Chief of Staff, External"
-              email="wait. when did we get emails?"
-              bio="Sophia Martinez (she/her) is an English major from Orange County, California, and will be a sophomore this upcoming academic year. She joined Berkeley's Model United Nations club to better her speaking abilities and become more involved with this campus. With how many great people she has found through this club, she wanted to become more involved as a new member and join the Secretariat for BEARMUN! Some other groups she is involved with are Berkeley PAD and the ASUC Student Union, where she works as a lead barista. Outside of academics, she loves listening to music (Fiona Apple and Lana Del Rey are some of her favorites!) and playing tennis with her coworkers. She is incredibly excited to work with everyone and ensure BearMUN is fun and successful for all groups involved.
-              bio approaching?"
-            />
-            <CardItem
+          <CardItem
               src={require('./images/headshots/Marvin.jpeg')}
               name= "Marvin Yen"
               title= "Under-Secretary General of Regional Assembly"
@@ -86,24 +97,6 @@ function Cards() {
               free time, he likes to play basketball with other club members, game, and binge
               watch cute cat videos."
             />
-          </div>
-          <div className='rows'>
-            <CardItem
-              src={require('./images/headshots/rishit.jpeg')}
-              name= "Rishit Pradhan"
-              title= "Under-Secretary General of Crisis"
-              email="Please hesitate to ask."
-              bio="Rishit Pradhan is a second-year student at UC Berkeley studying Chemical Biology and minoring in Statistics from Bakersfield, California. He has done MUN for the past five years in high school as well as on the collegiate circuit. Notably he has awarded at Harvard, McGill, and UPenn. Rishit joined BearMUN because he loves becoming more involved in club activities. Outside of BearMUN, he can be found playing tennis and eating. Rishit is excited for this upcoming BearMUN and looks forward to meeting you all!"
-            />
-            <CardItem
-              src={require('./images/headshots/Misato.jpg')}
-              name= "Misato Okamoto"
-              title= "Under-Secretary General of General Assembly"
-              email="You'll never find me. NEVER!!"
-              bio="Misato (she/her/hers) is the USG of General Assembly for BearMUN 2024. She is a junior majoring in Economics and Operations Research and Management Science with a minor in Global Poverty & Practice. Misato is from Kyoto, Japan and came to America when she got into Cal. She joined UCBMUN the Spring semester of her Sophomore year, and she has participated in high school MUN for 3 years as a delegate, staffer, secretariat member, and secretary-general. Outside of UCBMUN, Misato serves as the captain of Cal Dragon Boat, Undergraduate Research Apprentice at UC Berkeley Haas School of Business, Career Officer of Cal Japan Club, and mentor of atelier basi (online programs for unprivileged high school students in Japan applying to prestigious universities abroad). In her free time, she enjoys swimming, paddling, hiking, and watching movies. Misato hopes to provide each of you with a wonderful experience at BearMUN 2024, and she is excited to meeting you all."
-            />
-          </div>
-          <div className='rows'>
             <CardItem
               src={require('./images/headshots/Anna.JPEG')}
               name= "Amara Fernandes"
@@ -111,21 +104,15 @@ function Cards() {
               email="don't ask questions."
               bio="Amara Fernandes is a (first? second?)-year Political Economy major with minors in Philosophy and Public Policy. As a Bay Area native and high school speech and debate kid, she joined UC Berkeley Model United Nations in Spring '24 to join a tight-knit group of like-minded individuals as well as further her love of competition. She has been passionate about politics and community engagement since middle school, and MUN is just one extension of that. I will make this better at a future date I genuinely can't think of anything rn plus im focusing on the meeting."
             />
-            <CardItem
-              src={require('./images/headshots/Sam.png')}
-              name= "Sam Wang"
-              title= "Director of Programming and Business Development"
-              email="please. finals are too much."
-              bio="Sam (he/him/his) is a second-year at UC Berkeley, majoring in computer science and pre-law. He is from Claremont, California (where the Claremont Colleges are) but was born in Taiwan. Sam decided to join Model UN to continue his public speaking arc from high school speech and debate. He is your Director of Business Relations, where he secures business sponsorships to fund the conference. Outside of MUN, Sam enjoys playing violin, writing for the school newspaper, and teaching computer science. He is also passionate about improving student outcomes, working as a research assistant in the School of Education and being a college admissions mentor. Sam is grateful to serve on BearMUN Secretariat, and is looking forward to meeting all of you!"
-            />
+            
           </div>
           <div className='rows'>
-            <CardItem
-              src={require('./images/headshots/Anna.JPEG')}
-              name= "Jade Mon"
-              title= "Director of Finance"
-              email="leave me alone :("
-              bio="Jade Mon is a third year student at UC Berkeley, double majoring in computer science and data science, from the Bay Area. She joined UCBMUN in her freshman fall semester, having served as an Assistant Crisis Director for BearMUN 2022’s Space Pirates committee, BearMUN 2023’s Director of Technology and chair for Hogwarts: Board of Governors. Outside of Model UN, she can be found biking, reading, writing or hanging out with friends. She’s excited to see the unique ideas and individual development of every delegate attending BearMUN 2024."
+          <CardItem
+              src={require('./images/headshots/Misato.jpg')}
+              name= "Misato Okamoto"
+              title= "Under-Secretary General of General Assembly"
+              email="You'll never find me. NEVER!!"
+              bio="Misato (she/her/hers) is the USG of General Assembly for BearMUN 2024. She is a junior majoring in Economics and Operations Research and Management Science with a minor in Global Poverty & Practice. Misato is from Kyoto, Japan and came to America when she got into Cal. She joined UCBMUN the Spring semester of her Sophomore year, and she has participated in high school MUN for 3 years as a delegate, staffer, secretariat member, and secretary-general. Outside of UCBMUN, Misato serves as the captain of Cal Dragon Boat, Undergraduate Research Apprentice at UC Berkeley Haas School of Business, Career Officer of Cal Japan Club, and mentor of atelier basi (online programs for unprivileged high school students in Japan applying to prestigious universities abroad). In her free time, she enjoys swimming, paddling, hiking, and watching movies. Misato hopes to provide each of you with a wonderful experience at BearMUN 2024, and she is excited to meeting you all."
             />
             <CardItem
               src={require('./images/headshots/jocelyn.png')}
@@ -136,6 +123,23 @@ function Cards() {
               She joined UCBMUN after having enjoyed her high school's MUN and Parli clubs since her freshman year. Outside of MUN, she's part of the course
               staff for Cubstart, a course on focusing on web development, and an RA. In her free time, she enjoys writing, reading, and the occasional graphic
               design."
+            />
+            
+          </div>
+          <div className='rows'>
+          <CardItem
+              src={require('./images/headshots/Sam.png')}
+              name= "Sam Wang"
+              title= "Director of Programming and Business Development"
+              email="please. finals are too much."
+              bio="Sam (he/him/his) is a second-year at UC Berkeley, majoring in computer science and pre-law. He is from Claremont, California (where the Claremont Colleges are) but was born in Taiwan. Sam decided to join Model UN to continue his public speaking arc from high school speech and debate. He is your Director of Business Relations, where he secures business sponsorships to fund the conference. Outside of MUN, Sam enjoys playing violin, writing for the school newspaper, and teaching computer science. He is also passionate about improving student outcomes, working as a research assistant in the School of Education and being a college admissions mentor. Sam is grateful to serve on BearMUN Secretariat, and is looking forward to meeting all of you!"
+            />
+            <CardItem
+              src={require('./images/headshots/Anna.JPEG')}
+              name= "Jade Mon"
+              title= "Director of Finance"
+              email="leave me alone :("
+              bio="Jade Mon is a third year student at UC Berkeley, double majoring in computer science and data science, from the Bay Area. She joined UCBMUN in her freshman fall semester, having served as an Assistant Crisis Director for BearMUN 2022’s Space Pirates committee, BearMUN 2023’s Director of Technology and chair for Hogwarts: Board of Governors. Outside of Model UN, she can be found biking, reading, writing or hanging out with friends. She’s excited to see the unique ideas and individual development of every delegate attending BearMUN 2024."
             />
           </div>
           <br/>
