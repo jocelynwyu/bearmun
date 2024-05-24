@@ -1,13 +1,13 @@
-import React from 'react';
-import '../../App.css';
-import ConfLocation from '../ConfLocation';
+import React from "react";
+import "../../App.css";
+import ConfLocation from "../ConfLocation";
 
 function Location() {
-    return(
-        <>
-        <ConfLocation />
-        </>
-    )
+  return (
+    <>
+      <ConfLocation />
+    </>
+  );
 }
 
 export default Location;

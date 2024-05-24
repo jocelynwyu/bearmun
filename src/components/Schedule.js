@@ -1,31 +1,28 @@
-
-import React from 'react';
-import '../App.css';
-import { Button } from './Button';
-import './LocationSchedule.css';
+import React from "react";
+import "../App.css";
+import { Button } from "./Button";
+import "./LocationSchedule.css";
 
 function ConfSchedule() {
   return (
-    <div className='container'>
+    <div className="container">
       {/* <image src='images/ocean-image.jpg'/> */}
-      <div className='us-image'>
-      <div className='header'>
-        Schedule
-        <br/>
-        {/* <img className='ucbmun-image' src={require('./images/ucbmun.png')} alt='UCBMUN Logo' /> */}
+      <div className="us-image">
+        <div className="header">
+          Schedule
+          <br />
+          {/* <img className='ucbmun-image' src={require('./images/ucbmun.png')} alt='UCBMUN Logo' /> */}
+        </div>
+        <br />
+        <br />
+        <br />
       </div>
-      <br/>
-      <br/>
-      <br/>
-      </div>
-      <br/>
-      <br/>
-      <br/>
-      <div className='letter'>
-        <h1>
-            Coming soon!
-        </h1>
-      {/* <p>
+      <br />
+      <br />
+      <br />
+      <div className="letter">
+        <h1>Coming soon!</h1>
+        {/* <p>
         <br/>
             All times are in Pacific Standard Time, tentative, and subject to minor changes.
             <br/>
@@ -64,10 +61,9 @@ function ConfSchedule() {
         </div>
         <br/> */}
       </div>
-      <br/>
-      <br/>
-      <br/>
-
+      <br />
+      <br />
+      <br />
     </div>
   );
 }

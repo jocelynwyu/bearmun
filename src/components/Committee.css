@@ -144,7 +144,7 @@
     flex-direction: row; */
   }
 
-  .us-image {
+  .com-image {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -166,6 +166,7 @@
   } */
 
   .back-btn{
+    color: black;
     display: flex;
     width: 160px;
     height: 45px;

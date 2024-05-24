@@ -1,13 +1,13 @@
-import React from 'react';
-import '../../App.css';
-import ConfSchedule from '../Schedule';
+import React from "react";
+import "../../App.css";
+import ConfSchedule from "../Schedule";
 
 function Schedule() {
-    return(
-        <>
-        <ConfSchedule />
-        </>
-    )
+  return (
+    <>
+      <ConfSchedule />
+    </>
+  );
 }
 
 export default Schedule;

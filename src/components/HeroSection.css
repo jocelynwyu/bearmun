@@ -32,7 +32,6 @@
     background-size: cover;
     flex-direction: column;
     justify-content: center;
-
     background: url('./images/berkeley-home.jpg') center center;
     background-size: cover; /* Use cover to fill the container */
 }
@@ -70,8 +69,8 @@
 
 .signature {
     font-family: 'Alex Brush';
-    font-size: 30px;
-    margin: 0;
+    font-size: 35px;
+    margin-top: 0;
 }
 
 .home-info {

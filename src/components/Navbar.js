@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import './Navbar.css';
-import navImage from './images/bearmun-logo.png'
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
+import navImage from "./images/bearmun-logo.png";
 
 // Navbar component
 function Navbar() {
@@ -23,46 +23,62 @@ function Navbar() {
     showButton();
   }, []);
 
-  window.addEventListener('resize', showButton);
+  window.addEventListener("resize", showButton);
 
   return (
     <>
-      <nav className='navbar'>
-        <div className='navbar-container'>
-          <Link to='/' className='navbar-name' onClick={closeMobileMenu}>
-          <img src={navImage} alt='Nav Image' style={{width: '250px'}}/>
+      <nav className="navbar">
+        <div className="navbar-container">
+          <Link to="/" className="navbar-name" onClick={closeMobileMenu}>
+            <img src={navImage} alt="Nav Image" style={{ width: "250px" }} />
           </Link>
-          <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+          <div className="menu-icon" onClick={handleClick}>
+            <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
-              <Link to='/home' className='nav-links' onClick={closeMobileMenu}>
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item">
+              <Link to="/home" className="nav-links" onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
-            <li className='nav-item dropdown'>
-              <div className='nav-links' onClick={closeMobileMenu}>
+            <li className="nav-item dropdown">
+              <div className="nav-links" onClick={closeMobileMenu}>
                 About
               </div>
-              <ul className='dropdown-menu'>
-                <li className='dropdown-item'>
-                  <Link to='/secretariat' className='dropdown-links' onClick={closeMobileMenu}>
+              <ul className="dropdown-menu">
+                <li className="dropdown-item">
+                  <Link
+                    to="/secretariat"
+                    className="dropdown-links"
+                    onClick={closeMobileMenu}
+                  >
                     Secretariat
                   </Link>
                 </li>
-                <li className='dropdown-item'>
-                  <Link to='/schedule' className='dropdown-links' onClick={closeMobileMenu}>
+                <li className="dropdown-item">
+                  <Link
+                    to="/schedule"
+                    className="dropdown-links"
+                    onClick={closeMobileMenu}
+                  >
                     Schedule
                   </Link>
                 </li>
-                <li className='dropdown-item'>
-                  <Link to='/locations' className='dropdown-links' onClick={closeMobileMenu}>
+                <li className="dropdown-item">
+                  <Link
+                    to="/locations"
+                    className="dropdown-links"
+                    onClick={closeMobileMenu}
+                  >
                     Locations
                   </Link>
                 </li>
-                <li className='dropdown-item'>
-                  <Link to='/policies' className='dropdown-links' onClick={closeMobileMenu}>
+                <li className="dropdown-item">
+                  <Link
+                    to="/policies"
+                    className="dropdown-links"
+                    onClick={closeMobileMenu}
+                  >
                     Policies
                   </Link>
                 </li>
@@ -73,19 +89,35 @@ function Navbar() {
                 </li> */}
               </ul>
             </li>
-            <li className='nav-item dropdown'>
-              <div className='nav-links' onClick={closeMobileMenu}>
+            <li className="nav-item dropdown">
+              <div className="nav-links" onClick={closeMobileMenu}>
                 Resources
               </div>
-              <ul className='dropdown-menu'>
-              <li className='dropdown-item'>
-                  <a href="/static/images/AdvisorHandbook.pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'black'}}>Advisor Handbook</a>
+              <ul className="dropdown-menu">
+                <li className="dropdown-item">
+                  <a
+                    href="/static/images/AdvisorHandbook.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ textDecoration: "none", color: "black" }}
+                  >
+                    Advisor Handbook
+                  </a>
                 </li>
-                <li className='dropdown-item'>
-                <a href='/images/DelegateHandbook.pdf' style={{ textDecoration: 'none', color: 'black'}}>Delegate Handbook</a>
+                <li className="dropdown-item">
+                  <a
+                    href="/images/DelegateHandbook.pdf"
+                    style={{ textDecoration: "none", color: "black" }}
+                  >
+                    Delegate Handbook
+                  </a>
                 </li>
-                <li className='dropdown-item'>
-                  <Link to='/faq' className='dropdown-links' onClick={closeMobileMenu}>
+                <li className="dropdown-item">
+                  <Link
+                    to="/faq"
+                    className="dropdown-links"
+                    onClick={closeMobileMenu}
+                  >
                     FAQs
                   </Link>
                 </li>
@@ -101,8 +133,12 @@ function Navbar() {
                 </li> */}
               </ul>
             </li>
-            <li className='nav-item dropdown'>
-              <Link to='/committees' className='nav-links' onClick={closeMobileMenu}>
+            <li className="nav-item dropdown">
+              <Link
+                to="/committees"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 Committees
               </Link>
               {/* <ul className='dropdown-menu'>
@@ -152,14 +188,17 @@ function Navbar() {
                 </li>
               </ul> */}
             </li>
-            
-           <li className='nav-item'>
-              <Link to='/registration' className='nav-links' onClick={closeMobileMenu}>
+
+            <li className="nav-item">
+              <Link
+                to="/registration"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 <button className="btn--outline">Registration</button>
               </Link>
             </li>
           </ul>
-          
         </div>
       </nav>
     </>

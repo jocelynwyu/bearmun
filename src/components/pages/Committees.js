@@ -32,7 +32,7 @@ function Committees() {
 
   return (
     <div className="committees">
-      <div className="us-image">
+      <div className="com-image">
         <div className="header">
           Committees
           <br />
@@ -68,13 +68,13 @@ function Committees() {
             </li>
             <li onClick={closeMobileMenu}>
               <Link to="/legal" className="add-level">
-              Regional: NATO
+                Regional: NATO
               </Link>
             </li>
             <li onClick={closeMobileMenu}>
               <Link to="/regional" className="add-level">
-              6th Legal: Biotechnology
-                            </Link>
+                6th Legal: Biotechnology
+              </Link>
             </li>
             <li onClick={closeMobileMenu}>
               <Link to="/unoosa" className="add-level">
@@ -83,7 +83,7 @@ function Committees() {
             </li>
             <li onClick={closeMobileMenu}>
               <Link to="/tables" className="add-level">
-              President Taylor Swift
+                President Taylor Swift
               </Link>
             </li>
             <li onClick={closeMobileMenu}>
@@ -146,6 +146,7 @@ function Committees() {
                 src={require("../images/committees/ga/unhrc refugees.jpg")}
                 committee="UNHRC: Protection of Refugee Women and Children"
                 skill="Skill Level: Novice"
+                link='/unhrc'
               />
               <CommitteeItem2
                 src={require("../images/committees/ga/iaea nuclear energy.jpg")}

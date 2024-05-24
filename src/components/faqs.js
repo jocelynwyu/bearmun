@@ -1,33 +1,28 @@
-
-import React from 'react';
-import '../App.css';
-import { Button } from './Button';
-import './LocationSchedule.css';
+import React from "react";
+import "../App.css";
+import { Button } from "./Button";
+import "./LocationSchedule.css";
 
 function Faqs() {
   return (
-    <div className='container'>
+    <div className="container">
       <p>
-        <br/>
-        
-        </p>
-        <br/>
-        <div className='schedule'>
-          <p>
-            </p>          
-          <div className='day'>
-            <h1>QUESTION</h1>
-            <br/>
-            <p> Answer</p>
-            <br/>
-
-          </div>
+        <br />
+      </p>
+      <br />
+      <div className="schedule">
+        <p></p>
+        <div className="day">
+          <h1>QUESTION</h1>
+          <br />
+          <p> Answer</p>
+          <br />
         </div>
-        <br/>
-      <br/>
-      <br/>
-      <br/>
-
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }
