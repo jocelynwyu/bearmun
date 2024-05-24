@@ -11,7 +11,7 @@ function CommitteePage(props) {
       </div>
       <div className="com-name">{props.committee}</div>
       <div className="description">{props.description}</div>
-      <Link to={props.link} className="back-btn">
+      <Link to={props.link} className="guide-btn">
         Background Guide
       </Link>
       <div className="com-name">
