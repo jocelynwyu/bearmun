@@ -94,7 +94,7 @@ function HeroSection() {
             <p> Dearest delegates and advisors,
               <br />
               <br />
-              My letter will come soon. In the meantime, enjoy this beautiful photo of my lovely DG.
+              My letter will come soon. In the meantime, enjoy this beautiful photo of me.
 
               <br />
               <br />
@@ -120,6 +120,17 @@ function HeroSection() {
       <br />
       <br />
       <br />
+      <a href="https://www.ocf.berkeley.edu" target="_blank" rel="noopener noreferrer">
+  <img
+    src="http://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin.svg"
+    alt="Hosted by the OCF"
+    style={{ border: 0 }}
+  />
+</a>
+<br />
+
+
+
 
     </div>
   );

@@ -56,8 +56,8 @@ function Committees() {
 
           <ul className={click ? "com-menu active" : "com-menu"}>
             <li onClick={closeMobileMenu}>
-              <Link to="/unhcr" className="add-level">
-                UNHCR: Refugees
+              <Link to="/unhrc" className="add-level">
+                UNHRC: Refugees
               </Link>
             </li>
 
