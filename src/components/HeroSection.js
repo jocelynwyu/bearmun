@@ -40,7 +40,7 @@ function HeroSection() {
         <div className="words">
           <div className="home-intro">
             {/* <br /> */}
-            BearMUN XXVIII
+            BearMUN MMXXIV
             <br />
             <p>
               November 16th - 17th, 2024 <br />

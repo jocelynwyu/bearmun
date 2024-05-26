@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import navImage from "./images/bearmun-logo.png";
+import navImage from "./images/ucbmun copy.png";
 
 // Navbar component
 function Navbar() {
@@ -30,7 +30,13 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-name" onClick={closeMobileMenu}>
-            <img src={navImage} alt="Nav Image" style={{ width: "250px" }} />
+            <img
+              src={navImage}
+              alt="Nav Image"
+              style={{ width: "45px", margin: "1vw" }}
+            />
+            <p style={{ fontWeight: "400" }}>BEAR</p>
+            <p>MUN</p>
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -104,6 +110,7 @@ function Navbar() {
                     Advisor Handbook
                   </a>
                 </li>
+
                 <li className="dropdown-item">
                   <a
                     href="/images/DelegateHandbook.pdf"

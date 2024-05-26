@@ -11,7 +11,7 @@ function CardItem(props) {
         <div className="bio-text">
           <h3 className="name">{props.name}</h3>
           <p className="title">{props.title}</p>
-          <p className="email">{props.email}</p>
+          {/* <p className="email">{props.email}</p> */}
           <p className="cards__item__text">{props.bio}</p>
           <br />
         </div>
