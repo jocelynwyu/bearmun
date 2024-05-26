@@ -20,7 +20,9 @@ function CommitteeItem2(props) {
             <h3 className="committee">{props.committee}</h3>
             <div className="skill">{props.skill}</div>
           </div>
-          <Link to={props.link} className="back-btn">Background</Link>
+          <Link to={props.link} className="back-btn">
+            Background
+          </Link>
         </div>
       </div>
       <br />

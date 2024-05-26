@@ -62,6 +62,7 @@
   }
 
   .text-box-left{
+    position: relative;
     align-content: center;
     margin-left: -5vw;
     width: 45vw;
@@ -288,9 +289,10 @@
       }
     
       .text-box-left{
+        position: relative;
         align-content: center;
         margin-left: -5vw;
-        width: 30vw;
+        width: 45vw;
         height: auto;
         padding: 1rem;
         background: rgb(195, 207, 227);
