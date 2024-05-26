@@ -35,8 +35,8 @@ function Navbar() {
               alt="Nav Image"
               style={{ width: "45px", margin: "1vw" }}
             />
-            <p style={{ fontWeight: "400" }}>BEAR</p>
-            <p>MUN</p>
+            <p style={{ fontWeight: "300", fontFamily:'Reddit Sans'}}>BEAR</p>
+            <p style={{ fontFamily:'Reddit Sans'}}>MUN</p>
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />

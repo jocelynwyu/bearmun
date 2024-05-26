@@ -13,11 +13,8 @@ function CardItem(props) {
           <p className="title">{props.title}</p>
           {/* <p className="email">{props.email}</p> */}
           <p className="cards__item__text">{props.bio}</p>
-          <br />
         </div>
       </div>
-      <br />
-      <br />
     </div>
   );
 }
