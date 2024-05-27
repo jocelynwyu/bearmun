@@ -144,7 +144,7 @@ function Committees() {
             <div className="dum">
               <CommitteeItem
                 src={require("../images/committees/ga/unhrc refugees.jpg")}
-                committee="UNHRC: Protection of Refugee Women and Children"
+                committee="UNHRC: Healthcare Access for Refugee Women and Children"
                 skill="Skill Level: Novice"
                 link="/unhrc"
               />
@@ -157,7 +157,7 @@ function Committees() {
 
               <CommitteeItem
                 src={require("../images/committees/ga/nato south china sea.jpg")}
-                committee="Regional: NATO - South China Sea"
+                committee="NATO - South China Sea"
                 skill="Skill Level: Intermediate"
                 link="/regional"
               />
