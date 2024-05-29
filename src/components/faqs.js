@@ -6,6 +6,16 @@ import "./LocationSchedule.css";
 function Faqs() {
   return (
     <div className="container">
+      <div className="us-image">
+        <div className="header">
+          Contact Us
+          <br />
+          {/* <img className='ucbmun-image' src={require('./images/ucbmun.png')} alt='UCBMUN Logo' /> */}
+        </div>
+        <br />
+        <br />
+        <br />
+      </div>
       <p>
         <br />
       </p>

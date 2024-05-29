@@ -12,7 +12,7 @@ import Secretariat from "./components/pages/Secretariat";
 import Schedule from "./components/pages/Schedule";
 import Location from "./components/pages/Location";
 import Policies from "./components/pages/Policies";
-import FAQ from "./components/pages/FAQ";
+import Contact from "./components/pages/Contact";
 import Committees from "./components/pages/Committees";
 import Footer from "./components/Footer";
 import UNHRC from "./components/pages/Committees/ga/UNHRC";
@@ -63,7 +63,7 @@ function App() {
           <Route path="/schedule" exact element={<Schedule />} />
           <Route path="/locations" exact element={<Location />} />
           <Route path="/policies" exact element={<Policies />} />
-          <Route path="/faq" exact element={<FAQ />} />
+          <Route path="/contact" exact element={<Contact />} />
           <Route path="/committees" exact element={<Committees />} />
           <Route path='/unhrc' exact element={<UNHRC />} />
           <Route path='/iaea' exact element={<IAEA />} />

@@ -2,7 +2,7 @@ import React from "react";
 import "../../App.css";
 import Faqs from "../faqs";
 
-function FAQ() {
+function Contact() {
   return (
     <>
       <Faqs />
@@ -10,4 +10,4 @@ function FAQ() {
   );
 }
 
-export default FAQ;
+export default Contact;

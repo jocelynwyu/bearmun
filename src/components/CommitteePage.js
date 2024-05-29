@@ -18,10 +18,16 @@ function CommitteePage(props) {
         Background Guide
       </Link>
       <div className="com-name">
-        
         Staff
-        <div className="chair-container">
-          <div className="chair-box">
+        <div className="chair-container" style={{ justifyContent: "center", alignItems: 'center'}}>
+          <br></br>
+          <br></br>
+
+          <br></br>
+          <br></br>
+
+          <h2>Coming Soon!</h2>
+          {/* <div className="chair-box">
             <div className="chairs">
               {props.chair1}
               <img className="photo" src={props.photo1} alt={props.chair1} />
@@ -30,17 +36,15 @@ function CommitteePage(props) {
             </div>
           </div>
           <div className="chair-box">
-          <div className="chairs">
-            {props.chair2}
-            <img className="photo" src={props.photo2} alt={props.chair2} />
-            <div className="position">{props.position2}</div>
-            <div className="chairs-bio">{props.bio2}</div>
-          </div>
+            <div className="chairs">
+              {props.chair2}
+              <img className="photo" src={props.photo2} alt={props.chair2} />
+              <div className="position">{props.position2}</div>
+              <div className="chairs-bio">{props.bio2}</div>
+            </div>
+          </div> */}
         </div>
-        </div>
-        
       </div>
-      
     </div>
   );
 }

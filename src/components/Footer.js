@@ -19,14 +19,14 @@ function Footer() {
               <i class="fab fa-instagram" />
             </a>
 
-            <a
+            {/* <a
               class="social-icon-link facebook"
               href="https://www.facebook.com/bearmun.berkeley/"
               target="_blank"
               aria-label="Facebook"
             >
               <i class="fab fa-facebook" />
-            </a>
+            </a> */}
           </div>
           <p class="website-rights">BearMUN © 2024</p>
         </section>

@@ -63,6 +63,15 @@ function Navbar() {
                 </li>
                 <li className="dropdown-item">
                   <Link
+                    to="/contact"
+                    className="dropdown-links"
+                    onClick={closeMobileMenu}
+                  >
+                    Contact Us
+                  </Link>
+                </li>
+                <li className="dropdown-item">
+                  <Link
                     to="/schedule"
                     className="dropdown-links"
                     onClick={closeMobileMenu}
@@ -119,15 +128,7 @@ function Navbar() {
                     Delegate Handbook
                   </a>
                 </li>
-                <li className="dropdown-item">
-                  <Link
-                    to="/faq"
-                    className="dropdown-links"
-                    onClick={closeMobileMenu}
-                  >
-                    FAQs
-                  </Link>
-                </li>
+                
                 {/* <li className='dropdown-item'>
                   <Link to='/registration' className='dropdown-links' onClick={closeMobileMenu}>
                     Registration

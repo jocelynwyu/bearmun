@@ -157,7 +157,7 @@ function Committees() {
 
               <CommitteeItem
                 src={require("../images/committees/ga/nato south china sea.jpg")}
-                committee="NATO - South China Sea"
+                committee="NATO - South China Sea: Territorial Disputes"
                 skill="Skill Level: Intermediate"
                 link="/regional"
               />
