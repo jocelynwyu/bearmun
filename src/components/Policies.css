@@ -24,7 +24,7 @@
 
 
 .policy-info{
-    width: 60vw;
+    width: 75vw;
     text-align: left;
 }
 
@@ -45,8 +45,12 @@
 .policy{
 text-align: left;
 color: rgb(0, 0, 0);
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 800;
+}
+
+.content{
+    font-size: 0.9rem;
 }
 
 /* @media screen and (max-width: 760px) {

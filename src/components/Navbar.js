@@ -2,6 +2,10 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import navImage from "./images/ucbmun copy.png";
+import handbook from "./images/AdvisorHandbook.pdf";
+import minorform from "./images/forms/AuthorizationConsentTreatmentMinor.pdf";
+import photoform from "./images/forms/Photo and Video Release .pdf";
+import activityform from "./images/forms/RSO Activities Waiver FORM.pdf";
 
 // Navbar component
 function Navbar() {
@@ -35,8 +39,8 @@ function Navbar() {
               alt="Nav Image"
               style={{ width: "45px", margin: "1vw" }}
             />
-            <p style={{ fontWeight: "300", fontFamily:'Reddit Sans'}}>BEAR</p>
-            <p style={{ fontFamily:'Reddit Sans'}}>MUN</p>
+            <p style={{ fontWeight: "300", fontFamily: "Reddit Sans" }}>BEAR</p>
+            <p style={{ fontFamily: "Reddit Sans" }}>MUN</p>
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -61,7 +65,7 @@ function Navbar() {
                     Secretariat
                   </Link>
                 </li>
-                <li className="dropdown-item">
+                {/* <li className="dropdown-item">
                   <Link
                     to="/contact"
                     className="dropdown-links"
@@ -69,7 +73,7 @@ function Navbar() {
                   >
                     Contact Us
                   </Link>
-                </li>
+                </li> */}
                 <li className="dropdown-item">
                   <Link
                     to="/schedule"
@@ -109,38 +113,81 @@ function Navbar() {
                 Resources
               </div>
               <ul className="dropdown-menu">
+                {/* <li className="dropdown-item" onClick={closeMobileMenu}>
+      <a href={handbook} target="_blank" rel="noreferrer" style={{ textDecoration: "none", color: "black" }}>
+        Handbooks
+      </a>
+    </li> */}
                 <li className="dropdown-item">
+                  <li className="dropdown-links" onClick={closeMobileMenu}
+                  style={{
+                    textDecoration: "none",
+                    color: "black",
+                    marginTop:'-10px'
+                  }}>
+                    <a
+                      href={minorform}
+                      target="_blank"
+                      rel="noreferrer"
+                      style={{ textDecoration: "none", color: "black"}}
+                    >
+                      Minor Consent
+                    </a>
+                  </li>
+                </li>
+                <li className="dropdown-item">
+
+                <li className="dropdown-links" onClick={closeMobileMenu}
+                style={{
+                  textDecoration: "none",
+                  color: "black",
+                  marginTop:'-10px'
+
+                }}>
                   <a
-                    href="/static/images/AdvisorHandbook.pdf"
+                    href={photoform}
                     target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ textDecoration: "none", color: "black" }}
+                    rel="noreferrer"
+                    style={{
+                      textDecoration: "none",
+                      color: "black",
+                    }}
                   >
-                    Advisor Handbook
+                    Photo Consent
                   </a>
+                </li>
                 </li>
 
                 <li className="dropdown-item">
+
+                <li className="dropdown-links" onClick={closeMobileMenu}
+                style={{
+                  textDecoration: "none",
+                  color: "black",
+                  marginTop:'-10px'
+                }}>
                   <a
-                    href="/images/DelegateHandbook.pdf"
-                    style={{ textDecoration: "none", color: "black" }}
+                    href={activityform}
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{
+                      textDecoration: "none",
+                      color: "black",
+                    }}
                   >
-                    Delegate Handbook
+                    Liability Form
                   </a>
                 </li>
-                
-                {/* <li className='dropdown-item'>
-                  <Link to='/registration' className='dropdown-links' onClick={closeMobileMenu}>
-                    Registration
-                  </Link>
-                </li> */}
-                {/* <li className='dropdown-item'>
-                  <Link to='/about/page5' className='dropdown-links' onClick={closeMobileMenu}>
-                    Page 5
-                  </Link>
-                </li> */}
+                </li>
+
+                {/* <li className="dropdown-item" onClick={closeMobileMenu}>
+      <a href="/images/DelegateHandbook.pdf" style={{ textDecoration: "none", color: "black" }}>
+        Delegate Handbook
+      </a>
+    </li> */}
               </ul>
             </li>
+
             <li className="nav-item dropdown">
               <Link
                 to="/committees"
@@ -149,54 +196,16 @@ function Navbar() {
               >
                 Committees
               </Link>
-              {/* <ul className='dropdown-menu'>
-              <p style={{ fontStyle: 'italic', opacity: '0.6', marginTop: '15px', marginBottom: '15px' }}>
-                        General Assembly
-                    </p>
-
-                <li className='dropdown-item'>
-                  <Link to='/unhcr' className='dropdown-links' onClick={closeMobileMenu}>
-                  UNHRC: Refugees
-
-                  </Link>
-                </li>
-                <li className='dropdown-item'>
-                  <Link to='/iaea' className='dropdown-links' onClick={closeMobileMenu}>
-                  IAEA: Nuclear Energy
-                  </Link>
-                </li>
-                <li className='dropdown-item'>
-                  <Link to='/who' className='dropdown-links' onClick={closeMobileMenu}>
-                  WHO: Conflict Zones
-                  </Link>
-                </li>
-
-                <p style={{ fontStyle: 'italic', opacity: '0.6', marginTop: '15px', marginBottom: '15px' }}>
-                        Crisis
-                    </p>
-
-                <li className='dropdown-item'>
-                  <Link to='/about/jurassic' className='dropdown-links' onClick={closeMobileMenu}>
-                  Jurassic Park
-                  </Link>
-                </li>
-                <li className='dropdown-item'>
-                  <Link to='/nato' className='dropdown-links' onClick={closeMobileMenu}>
-                  Regional: NATO
-                  </Link>
-                </li>
-                <p style={{ fontStyle: 'italic', opacity: '0.6', marginTop: '15px', marginBottom: '15px' }}>
-                        Intermediate
-                    </p>
-                <li className='dropdown-item'>
-                    
-                  <Link to='/about/icj' className='dropdown-links' onClick={closeMobileMenu}>
-                  ICJ: Nicaragua vs US
-                  </Link>
-                </li>
-              </ul> */}
             </li>
-
+            {/* <li className="nav-item dropdown">
+              <Link
+                to="/contact"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Contact Us
+              </Link>
+            </li> */}
             <li className="nav-item">
               <Link
                 to="/registration"

@@ -84,12 +84,7 @@ function Cards() {
             name="Marvin Yen"
             title="Under-Secretary General of Regional Assembly"
             email="DON'T EMAIL ME"
-            bio="Marvin (he/him) is a sophomore at UC Berkeley, double majoring in Economics and Data
-              Science and Born in Fremont, California, he moved back to Taiwan in third grade
-              and returned to the Bay Area for college. He has been involved in MUN since
-              middle school and currently serves as the Director of Finance at UCBMUN. In his
-              free time, he likes to play basketball with other club members, game, and binge
-              watch cute cat videos."
+            bio="Marvin (he/him) is a junior at UC Berkeley, double majoring in Economics and Data Science. Born in Fremont, California, he moved back to Taiwan in third grade and returned to the Bay Area for college. He has been involved in MUN since middle school and currently serves as the Director of Finance at UCBMUN. In his free time, he likes to play basketball with other club members, game, and binge watch cute cat videos."
           />
           <CardItem
             src={require("./images/headshots/amara.png")}

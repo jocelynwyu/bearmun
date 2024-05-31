@@ -206,7 +206,7 @@ function Committees() {
               />
               <CommitteeItem2
                 src={require("../images/committees/spec/oj simpson.webp")}
-                committee="LACSC: The Trial of OJ Simpson"
+                committee="Los Angeles County Superior Court: The Trial of OJ Simpson"
                 skill="Skill Level: Advanced"
                 link="/ojsimpson"
               />

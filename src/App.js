@@ -63,9 +63,9 @@ function App() {
           <Route path="/schedule" exact element={<Schedule />} />
           <Route path="/locations" exact element={<Location />} />
           <Route path="/policies" exact element={<Policies />} />
-          <Route path="/contact" exact element={<Contact />} />
+          {/* <Route path="/contact" exact element={<Contact />} /> */}
           <Route path="/committees" exact element={<Committees />} />
-          <Route path='/unhrc' exact element={<UNHRC />} />
+          {/* <Route path='/unhrc' exact element={<UNHRC />} />
           <Route path='/iaea' exact element={<IAEA />} />
           <Route path='/regional' exact element={<Regional />} />
           <Route path='/legal' exact element={<Legal />} />
@@ -80,7 +80,7 @@ function App() {
           <Route path='/jcccbi' exact element={<JCC2 />} />
           <Route path='/percyjackson' exact element={<PJ />} />
           <Route path='/unsc' exact element={<UNSC />} />
-          <Route path='/adhoc' exact element={<ADHOC />} />
+          <Route path='/adhoc' exact element={<ADHOC />} /> */}
 
         </Routes>
         <Footer />

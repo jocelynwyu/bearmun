@@ -16,8 +16,6 @@ function Policies() {
         <br />
       </div>
       <br />
-      <br />
-      <br />
 
       <div className="policies">
         <div className="policy">
@@ -26,7 +24,7 @@ function Policies() {
         </div>
         <br />
         <div className="policy-info">
-          <p>
+          <p className='content'>
             BearMUN awards recognize exceptional diplomacy, creativity, and
             engagement in Model UN. Each committee grants Best Delegate,
             Outstanding Delegate, Honorable Mention, and Verbal Commendation
@@ -37,9 +35,7 @@ function Policies() {
             distinctions between small and large delegations. Awards are
             permanent unless conference policy violations occur, leading to
             revocation.
-            <br />
           </p>
-          <br />
         </div>
       </div>
       <div className="policies">
@@ -49,7 +45,7 @@ function Policies() {
         </div>
         <br />
         <div className="policy-info">
-          <p>
+        <p className='content'>
             BearMUN maintains a safe environment by strictly prohibiting all
             forms of harassment and discrimination, including but not limited to
             race, gender, sexual orientation, socioeconomic status, religion,
@@ -59,9 +55,7 @@ function Policies() {
             proportional reprimand or punishment determined by the BearMUN
             Secretariat.
           </p>
-          <br />
         </div>
-        <br />
       </div>
       <div className="policies">
         <div className="policy">
@@ -70,7 +64,7 @@ function Policies() {
         </div>
         <br />
         <div className="policy-info">
-          <p>
+        <p className='content'>
             BearMUN strictly prohibits the use of pre-written clauses in
             committee sessions. Delegates must draft all substantive material
             during committee hours and may not delete clauses without author
@@ -78,10 +72,8 @@ function Policies() {
             report suspected violations, contact your committee chair. BearMUN
             reserves the right to investigate claims and will penalize offenders
             based on the severity of the violation. <br />
-            <br />{" "}
           </p>
         </div>
-        <br />
       </div>
       <div className="policies">
         <div className="policy">
@@ -90,7 +82,7 @@ function Policies() {
         </div>
         <br />
         <div className="policy-info">
-          <p>
+        <p className='content'>
             BearMUN strictly prohibits the use of pre-written clauses in
             committee sessions. Delegates must draft all substantive material
             during committee hours and may not delete clauses without author
@@ -99,9 +91,7 @@ function Policies() {
             reserves the right to investigate claims and will penalize offenders
             based on the severity of the violation. <br />
           </p>
-          <br />
         </div>
-        <br />
       </div>
 
       <div className="policies">
@@ -111,7 +101,7 @@ function Policies() {
         </div>
         <br />
         <div className="policy-info">
-          <p>
+        <p className='content'>
             BearMUN acknowledges technology's importance for research and
             learning but prohibits its improper use in committee to maintain
             fairness. Delegates must refrain from using technology for
@@ -120,17 +110,20 @@ function Policies() {
             type:
           </p>
           <br />
-          <li>
+          <li className='content'>
             GA Committees: Laptops are allowed for working papers and
             resolutions during unmoderated caucuses.
           </li>
-          <li>
+          <li className='content'>
             Crisis Committees and Specialized Bodies: No technology use; all
             research and documents must be physical.
           </li>
           <br />
+          <p className='content'>
           Violations will result in penalties determined by the severity of the
           offense. Contact your committee chair with any concerns.
+          </p>
+
           <br />
           <br />
         </div>
