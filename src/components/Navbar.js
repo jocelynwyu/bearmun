@@ -119,65 +119,71 @@ function Navbar() {
       </a>
     </li> */}
                 <li className="dropdown-item">
-                  <li className="dropdown-links" onClick={closeMobileMenu}
-                  style={{
-                    textDecoration: "none",
-                    color: "black",
-                    marginTop:'-10px'
-                  }}>
+                  <li
+                    className="dropdown-links"
+                    onClick={closeMobileMenu}
+                    style={{
+                      textDecoration: "none",
+                      color: "black",
+                      marginTop: "-10px",
+                    }}
+                  >
                     <a
                       href={minorform}
                       target="_blank"
                       rel="noreferrer"
-                      style={{ textDecoration: "none", color: "black"}}
+                      style={{ textDecoration: "none", color: "black" }}
                     >
                       Minor Consent
                     </a>
                   </li>
                 </li>
                 <li className="dropdown-item">
-
-                <li className="dropdown-links" onClick={closeMobileMenu}
-                style={{
-                  textDecoration: "none",
-                  color: "black",
-                  marginTop:'-10px'
-
-                }}>
-                  <a
-                    href={photoform}
-                    target="_blank"
-                    rel="noreferrer"
+                  <li
+                    className="dropdown-links"
+                    onClick={closeMobileMenu}
                     style={{
                       textDecoration: "none",
                       color: "black",
+                      marginTop: "-10px",
                     }}
                   >
-                    Photo Consent
-                  </a>
-                </li>
+                    <a
+                      href={photoform}
+                      target="_blank"
+                      rel="noreferrer"
+                      style={{
+                        textDecoration: "none",
+                        color: "black",
+                      }}
+                    >
+                      Photo Consent
+                    </a>
+                  </li>
                 </li>
 
                 <li className="dropdown-item">
-
-                <li className="dropdown-links" onClick={closeMobileMenu}
-                style={{
-                  textDecoration: "none",
-                  color: "black",
-                  marginTop:'-10px'
-                }}>
-                  <a
-                    href={activityform}
-                    target="_blank"
-                    rel="noreferrer"
+                  <li
+                    className="dropdown-links"
+                    onClick={closeMobileMenu}
                     style={{
                       textDecoration: "none",
                       color: "black",
+                      marginTop: "-10px",
                     }}
                   >
-                    Liability Form
-                  </a>
-                </li>
+                    <a
+                      href={activityform}
+                      target="_blank"
+                      rel="noreferrer"
+                      style={{
+                        textDecoration: "none",
+                        color: "black",
+                      }}
+                    >
+                      Liability Form
+                    </a>
+                  </li>
                 </li>
 
                 {/* <li className="dropdown-item" onClick={closeMobileMenu}>
@@ -208,7 +214,7 @@ function Navbar() {
             </li> */}
             <li className="nav-item">
               <Link
-                to="/registration"
+                to="https://docs.google.com/forms/d/e/1FAIpQLSemok5b7eIoZFWrXdo4eawYrxfzvYlyJDBNuUOTJDXWeLbzYw/viewform?embedded=true"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >

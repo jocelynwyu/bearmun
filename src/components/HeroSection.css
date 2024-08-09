@@ -80,14 +80,14 @@
 
 .home-text {
     margin-left: 5vw;
-    width: 40vw;
     display: flex;
     flex-direction: column;
 }
 
-.sec-gen-image {
+.letter-image {
     width: 300px;
     height: 300px;
+    object-fit: cover;
 }
 
 .contact-info {
@@ -144,6 +144,18 @@
 .words{
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (min-width: 1360px) {
+    .move2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    .move{
+        display: none;
+    }
 }
   
 

@@ -21,14 +21,22 @@ function Cards() {
       <ul className="cards__items">
         <div className="rows">
           <CardItem
-            src={require("./images/headshots/sara.JPG")}
+            src={require("./images/headshots/sec/sara.JPG")}
             name="Sara Khemani"
             title="Secretary General"
             email="idk"
-            bio="WOOHOO! LET'S GET PUMPED!"
+            bio="Sara Khemani (She/Her), is a third-year student at UC Berkeley, and is double majoring in
+            Molecular and Cell Biology and Political Economy, with a focus on Medical Politics. Originally
+            from Singapore, Sara competed in Model UN throughout middle and high school, igniting her
+            passion for human rights and providing her with an interdisciplinary approach to medicine.
+            Having served as Deputy Secretary-General for IASAS MUN 2020, her role as
+            Secretary-General for this conference is a full-circle moment. Model UN holds a special place in
+            her heart, and she is incredibly grateful for the opportunity to plan a conference where students
+            can learn and grow. Outside of MUN, Sara enjoys traveling and visiting cities like Boston, San
+            Francisco, and New York. Sara cannot wait to meet you all at BEARMUN2024!"
           />
           <CardItem
-            src={require("./images/headshots/Anna.JPEG")}
+            src={require("./images/headshots/sec/Anna.JPEG")}
             name="Anna Lieggi"
             title="Director General"
             email="if you email after 5pm—"
@@ -37,7 +45,7 @@ function Cards() {
         </div>
         <div className="rows">
           <CardItem
-            src={require("./images/headshots/sophia.png")}
+            src={require("./images/headshots/sec/sophia.png")}
             name="Sophia Martinez"
             title="Chief of Staff, External"
             email="wait. when did we get emails?"
@@ -45,7 +53,7 @@ function Cards() {
             "
           />
           <CardItem
-            src={require("./images/headshots/annika.png")}
+            src={require("./images/headshots/sec/annika.png")}
             name="Annika Seo"
             title="Chief of Staff, Generalized"
             email="who knows my email, really? not me"
@@ -56,7 +64,7 @@ function Cards() {
         </div>
         <div className="rows">
           <CardItem
-            src={require("./images/headshots/Jomari.jpg")}
+            src={require("./images/headshots/sec/Jomari.jpg")}
             name="Jomari Encarnacion"
             title="Chief of Staff, Internal"
             email="emails exist?"
@@ -71,7 +79,7 @@ function Cards() {
               and is glad to be your Chief of Staff Internal!"
           />
           <CardItem
-            src={require("./images/headshots/rishit.jpg")}
+            src={require("./images/headshots/sec/rishit.jpg")}
             name="Rishit Pradhan"
             title="Under-Secretary General of Crisis"
             email="Please hesitate to ask."
@@ -80,14 +88,14 @@ function Cards() {
         </div>
         <div className="rows">
           <CardItem
-            src={require("./images/headshots/marvin.jpg")}
+            src={require("./images/headshots/sec/marvin.jpg")}
             name="Marvin Yen"
             title="Under-Secretary General of Regional Assembly"
             email="DON'T EMAIL ME"
             bio="Marvin (he/him) is a junior at UC Berkeley, double majoring in Economics and Data Science. Born in Fremont, California, he moved back to Taiwan in third grade and returned to the Bay Area for college. He has been involved in MUN since middle school and currently serves as the Director of Finance at UCBMUN. In his free time, he likes to play basketball with other club members, game, and binge watch cute cat videos."
           />
           <CardItem
-            src={require("./images/headshots/amara.png")}
+            src={require("./images/headshots/sec/amara.png")}
             name="Amara Fernandes"
             title="Under-Secretary General of Specialized Bodies"
             email="don't ask questions."
@@ -96,33 +104,33 @@ function Cards() {
         </div>
         <div className="rows">
           <CardItem
-            src={require("./images/headshots/Misato.jpg")}
+            src={require("./images/headshots/sec/Misato.jpg")}
             name="Misato Okamoto"
             title="Under-Secretary General of General Assemblies"
             email="You'll never find me. NEVER!!"
             bio="Misato (she/her) is a junior from Kyoto, Japan, majoring in Economics and Operations Research and Management Science with a minor in Global Poverty & Practice. She joined UCBMUN the Spring semester of her Sophomore year, and has participated in high school MUN for 3 years. Outside of UCBMUN, Misato is involved in Cal Dragon Boat, Undergraduate Research Apprentice at the Haas School of Business, Cal Japan Club, and atelier basi (online programs for unprivileged high school students in Japan applying to universities abroad). In her free time, she enjoys swimming, paddling, hiking, and watching movies. Misato hopes to provide each of you with a wonderful experience at BearMUN 2024, and is excited to meet you all.
 "            />
           <CardItem
-            src={require("./images/headshots/jocelyn.png")}
+            src={require("./images/headshots/sec/jocelyn.png")}
             name="Jocelyn Yu"
             title="Director of Technology"
             email="currently shaking sobbing crying."
             bio="Jocelyn (she/her) is a junior majoring in Computer Science. Originally from San Francisco, she's called the Bay her home almost her entire life.
-              She joined UCBMUN after having enjoyed her high school's MUN and Parli clubs in her freshman year. Outside of MUN, she's part of the course
-              staff for Cubstart, a course on focusing on web development, and an RA. In her free time, she enjoys writing, reading, and the occasional graphic
-              design. She's excited for this upcoming BearMUN, and hopes you all enjoy the conference!"
+              She joined UCBMUN following high school MUN and Parlimentary debate, which she'd been a part of since her freshman year. Outside of MUN, she's part
+              of the course staff for Cubstart, a course on web development, and an Residential Assistant. In her free time, she enjoys writing, reading, and the
+              occasional graphic design. She's excited for this upcoming BearMUN, and hopes you all enjoy the conference!"
           />
         </div>
         <div className="rows">
           <CardItem
-            src={require("./images/headshots/Sam.png")}
+            src={require("./images/headshots/sec/Sam.png")}
             name="Sam Wang"
             title="Director of Programming and Business Development"
             email="please. finals are too much."
             bio="Sam (he/him) is a second-year at UC Berkeley, majoring in computer science and is pre-law. He is from Claremont, California but was born in Taiwan. Sam decided to join Model UN to continue his public speaking arc from high school speech and debate. Outside of MUN, Sam enjoys playing violin, writing for the school newspaper, and teaching computer science. He is also passionate about improving student outcomes, working as a research assistant in the School of Education and being a college admissions mentor. Sam is grateful to serve on BearMUN Secretariat, and is looking forward to meeting all of you!
 "            />
           <CardItem
-            src={require("./images/headshots/jade.png")}
+            src={require("./images/headshots/sec/jade.png")}
             name="Jade Mon"
             title="Director of Finance"
             email="leave me alone :("

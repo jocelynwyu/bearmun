@@ -9,17 +9,67 @@ function UNHRC() {
         src={require("../../../images/committees/ga/unhrc refugees.jpg")}
         committee="UNHRC: Healthcare Access for Refugee Women and Children"
         skill="Skill Level: Novice"
-        description=" Sophia Martinez (she/her) is an English major from Orange County, California, and will be a sophomore this upcoming academic year. She joined Berkeley's Model United Nations club to better her speaking abilities and become more involved with this campus. With how many great people she has found through this club, she wanted to become more involved as a new member and join the Secretariat for BEARMUN! Some other groups she is involved with are Berkeley PAD and the ASUC Student Union, where she works as a lead barista. Outside of academics, she loves listening to music (Fiona Apple and Lana Del Rey are some of her favorites!) and playing tennis with her coworkers. She is incredibly excited to work with everyone and ensure BearMUN is fun and successful for all groups involved.
-                bio approaching?"
-        chair1="Sameera"
+        description="Description coming soon!"
+        chair1="Nishita Belur"
         position1='Chair'
-        bio1=" Sophia Martinez (she/her) is an English major from Orange County, California, and will be a sophomore this upcoming academic year. She joined Berkeley's Model United Nations club to better her speaking abilities and become more involved with this campus. With how many great people she has found through this club, she wanted to become more involved as a new member and join the Secretariat for BEARMUN! Some other groups she is involved with are Berkeley PAD and the ASUC Student Union, where she works as a lead barista. Outside of academics, she loves listening to music (Fiona Apple and Lana Del Rey are some of her favorites!) and playing tennis with her coworkers. She is incredibly excited to work with everyone and ensure BearMUN is fun and successful for all groups involved.
-        bio approaching?"
-        photo1={require("../../../images/committees/ga/iaea nuclear energy.jpg")}
-        chair2="Joanna"
+        bio11="Greetings delegates,"
+        bio12="Welcome to UNHRC! My name is Nishita Belur (she/her), and I am excited to be your
+        Chair for the United Nations Security Council. I am a senior from the Bay Area studying
+        Neurobiology and Public Health, and I have been on the UCBMUN travel team since the fall of
+        my freshman year. Throughout these years, I have staffed conferences, competed on both coasts
+        and had a (short-lived) tenure as General Assembly Head Delegate. Outside of MUN, I research
+        substance abuse at UCSF, read fantasy books, and obsessively binge cooking competition shows."
+        bio13="Our aim is to foster a respectful, engaging, and intellectually stimulating environment
+        where you can develop your skills in research and critical thinking. Remember that the ultimate
+        goal of the UNHRC is to protect and promote human rights for all individuals, and your
+        contributions in this committee can simulate the impact that international cooperation can
+        achieve. As a Public Health major, I really look forward to seeing the connections you all make
+        from human rights to important public health matters like sanitation, water rights, and
+        availability of medicines/vaccines. All three are often disrupted by conflict, tensions, and war
+        and discussing these demonstrates a well rounded understanding of our topics."
+        bio14="We look forward to meaningful debates on the political, economic, and environmental
+        policies necessary to address the complex situations UNHRC often encounters. I am so excited
+        to meet all of you, and I hope you all have a great conference!"
+        bio15="Nishita Belur"
+        bio16="Chair, This is Guinea-Bissau Crazy: United Nations Security Council"
+
+
+
+
+photo1={require("../../../images/committees/ga/iaea nuclear energy.jpg")}
+        chair2="Sameera Menon"
         position2='Vice Chair'
-        bio2=" Sophia Martinez (she/her) is an English major from Orange County, California, and will be a sophomore this upcoming academic year. She joined Berkeley's Model United Nations club to better her speaking abilities and become more involved with this campus. With how many great people she has found through this club, she wanted to become more involved as a new member and join the Secretariat for BEARMUN! Some other groups she is involved with are Berkeley PAD and the ASUC Student Union, where she works as a lead barista. Outside of academics, she loves listening to music (Fiona Apple and Lana Del Rey are some of her favorites!) and playing tennis with her coworkers. She is incredibly excited to work with everyone and ensure BearMUN is fun and successful for all groups involved.
-        bio approaching?"
+
+
+
+bio21="Dear Delegates,"
+        bio22="I am ecstatic to welcome you to BearMUN’s UNHRC committee! I am especially thrilled
+        to be spending the next few days hearing your perspectives on a topic that has increasing global
+        prevalence, and is a passion of mine."
+        bio23="A little about myself- I am from Orange County, California and am a third-year at
+        Berkeley, pursuing Public Health on the premedical track. In addition to chairing for BearMUN,
+        I am the Under-Secretary General of General Assemblies for our upcoming collegiate
+        conference: UCBMUN XXIX. Like many of you, I am relatively new to the world of MUN.
+        While I joined UCBMUN to explore my interest in health policy, I stayed for the thrill of
+        competing, excitement for leading, and feeling of community it has fostered. Whether this is
+        your first or fifteenth conference, I hope you can leave BearMUN MMXXIV with some of these
+        sentiments."
+        bio24="Outside of MUN, I can be found thrifting trinkets, going for night drives, or eating sushi.
+        I am sure that many of you share these interests, and I cannot wait to swap music
+        recommendations in between committee sessions! One of my true passions in life, in addition to
+        The Neighborhood, is expanding health equity, especially within vulnerable communities."
+        bio25="The United Nations Human Rights Council plays a critical role in furthering the overall
+        goal of the UN: promoting global well-being. Too often, people are encouraged to look towards
+        their individual governments in ensuring their reception of basic privileges. But what happens
+        when a person no longer has a government to look to? Refugee rights are a highly contested,
+        relevant, and multifaceted topic. I encourage you to think critically about the unique landscape of
+        healthcare in the context of asylum-seekers, and why seemingly simple solutions may not be so
+        feasible. With this in mind, please know that I am beyond intrigued to hear your diverse and
+        fresh takes on a decades-old issue, and hope you can go back home with a newfound or fortified
+        interest in human rights. Welcome to UNHRC!"
+bio26="Sincerely,
+Sameera Menon"
+
         photo2={require("../../../images/committees/ga/iaea nuclear energy.jpg")}
       />
     </>

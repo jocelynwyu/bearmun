@@ -19,20 +19,30 @@ function CommitteePage(props) {
       </Link>
       <div className="com-name">
         Staff
-        <div className="chair-container" style={{ justifyContent: "center", alignItems: 'center'}}>
+        <div className="chair-container" style={{ justifyContent: "center"}}>
           <br></br>
           <br></br>
 
           <br></br>
           <br></br>
 
-          <h2>Coming Soon!</h2>
-          {/* <div className="chair-box">
+          {/* <h2>Coming Soon!</h2> */}
+          <div className="chair-box">
             <div className="chairs">
               {props.chair1}
               <img className="photo" src={props.photo1} alt={props.chair1} />
               <div className="position">{props.position1}</div>
-              <div className="chairs-bio">{props.bio1}</div>
+              <div className="chairs-bio">{props.bio11}</div>
+              <br/>
+              <div className="chairs-bio">{props.bio12}</div>
+              <br/>
+              <div className="chairs-bio">{props.bio13}</div>
+              <br/>
+<div className="chairs-bio">{props.bio14}</div>
+<br/>
+<div className="chairs-bio">{props.bio15}</div>
+<br/>
+<div className="chairs-bio">{props.bio16}</div>
             </div>
           </div>
           <div className="chair-box">
@@ -40,9 +50,20 @@ function CommitteePage(props) {
               {props.chair2}
               <img className="photo" src={props.photo2} alt={props.chair2} />
               <div className="position">{props.position2}</div>
-              <div className="chairs-bio">{props.bio2}</div>
+<div className="chairs-bio">{props.bio21}</div>
+<br/>
+              <div className="chairs-bio">{props.bio22}</div>
+              <br/>
+              <div className="chairs-bio">{props.bio23}</div>
+              <br/>
+              <div className="chairs-bio">{props.bio24}</div>
+              <br/>
+              <div className="chairs-bio">{props.bio25}</div>
+              <br/>
+              <div className="chairs-bio">{props.bio26}</div>
+
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
