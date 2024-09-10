@@ -34,7 +34,7 @@ function IAEA() {
         bio12="Best,"
         bio13="Minyoung Kim"
         
-        photo1={require("../../../images/committees/ga/iaea nuclear energy.jpg")}
+        photo1={require("../../../images/headshots/dias/minyoung.png")}
         chair2="Josephine Yasuda"
         position2="Vice Chair"
         bio21="Distinguished Delegates,"
@@ -57,9 +57,9 @@ function IAEA() {
         meeting you all. Have a wonderful time at BearMUN, and feel free to reach out if you have any
         questiI look forward to your creativity, and passion, and can not wait to welcome you this upcoming
         conference, and welcome to IAEA."
-        bio26="Sincerely,
-        Josephine Yasuda"
-        photo2={require("../../../images/committees/ga/iaea nuclear energy.jpg")}
+        bio26="Sincerely,"
+        bio27="Josephine Yasuda"
+        photo2={require("../../../images/headshots/dias/josie.png")}
       />
     </>
   );

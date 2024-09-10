@@ -43,37 +43,18 @@ function Regional() {
         cell biology with an emphasis in neurobiology. I have a keen interest in visiting museums,
         over-managed city parks, and concerts."
         bio15="Good luck!"
+        bio16="Best,"
+        bio17="Saranyu Nel"
 photo1={require("../../../images/headshots/dias/Saranyu.png")}
         chair2="Sam Wang"
         position2='Vice Chair'
-
-
-
-bio21="Coming soon!"
-//         bio22="My name is Anushka Rajasekhar (she/her), and I will be your [what am I] for the
-//         Barbenheimer Committee! I’m not a big fan of the Oppenheimer or Barbie movie (I fell asleep in
-//         the theater), but I played with barbies as a child and I like physics so I suppose there’s some hope
-//         for me after all. However, this committee will indeed be filled with chaos, entertainment, and
-//         scheming: all things I do adore. With that being said, I encourage you all to think of creative
-//         solutions and be bold in your speeches. I recommend that you all step outside your comfort
-//         zones and use your limitless imagination in committee (be creative!!)."
-//         bio23="This is my second semester in collegiate MUN, but I’ve been dabbling in MUN since
-//         middle school. I remember the day that a GA committee I signed up for in high school
-//         miraculously became a crisis committee with purple penguins. Since then, I have been a crisis
-//         delegate and absolutely love how insane it is. Within UCBMUN, I am currently a USG for our
-//         collegiate conference that happens every spring!"
-//         bio24="I am currently a sophomore at Berkeley, studying geophysics and philosophy. I am
-//         pre-law, but also wildy fascinated by everything volcanoes and seismology related. I am from
-//         Pleasanton, CA, but I spent the beginning half of my life moving around the Midwest. Outside of
-//         MUN, I love to discover new music, find new adventures, and am part of a pre-law fraternity on
-//         campus."
-//         bio25="I am excited to see what you all have in store for our committee, and am looking forward to
-//         meeting you all. Have a wonderful time at BearMUN, and feel free to reach out if you have any
-//         questions."
-// bio26="I am excited to see what you all have in store for our committee, and am looking forward to
-//         meeting you all. Have a wonderful time at BearMUN, and feel free to reach out if you have any
-//         questions."
-
+        bio21="Dear delegates,"
+        bio22="While this committee is serious, I look forward to seeing your creative solutions to the problems we’ll propose. I also expect collaboration with your fellow delegates. And finally, I hope you’ll learn nuance. You must find a way to advance your character’s interests through solutions that work for everyone. "
+        bio23="I joined Model UN to continue my public speaking arc from high school speech and debate, but ended up finding much more. I’ve made new friends through the club, I’ve loved traveling during conferences, and I’ve found MUN committees very interesting. I love hearing wildly creative ideas from other delegates and the cooperative aspect in MUN, which is a change from academic debate. This conference, I am a part of secretariat as Director of Business where I secure sponsorships. In addition, I serve on secretariat for UCBMUN, our college conference, as well. "
+        bio24="Outside of MUN, I am a sophomore studying computer science at UC Berkeley. I love writing data-driven articles for the Daily Californian, coding games and AI algorithms, and creating other cool coding/data related projects. I also work as a researcher in Berkeley’s School of Education and a college admissions mentor, hoping to improve student outcomes. My hobbies include playing the violin, reading, and eating (particularly Japanese food). "
+        bio25="Looking forward to meeting you all and chairing this committee! "
+        bio26="Best,"
+        bio27="Sam Wang"
         photo2={require("../../../images/headshots/dias/sam.png")}
       />
     </>

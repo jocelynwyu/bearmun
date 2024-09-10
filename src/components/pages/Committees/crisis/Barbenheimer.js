@@ -42,8 +42,8 @@ function Barbenheimer() {
         bio15=" I look forward to seeing how delegates manage the absurdity of intermingling two vastly
         different worlds, and I hope you all have a great BearMUN Conference! If you have any
         questions or comments, please feel free to contact us!"
-        bio16=" Best,
-        Jomari Encarnacion"
+        bio16=" Best,"
+        bio17="Jomari Encarnacion"
         photo1={require("../../../images/committees/ga/iaea nuclear energy.jpg")}
         chair2="Anushka Rajasekhar"
         position2="Vice Chair"

@@ -42,7 +42,7 @@
 }
 
 .description{
-    width: 80%;
+    width: 75%;
     align-self: center;
     line-height: 30px;
 }
@@ -87,10 +87,12 @@
 }
 
 .chairs-bio{
-    font-size: 1rem;
+    font-size: .9rem;
     font-weight: normal;
-    line-height: 30px;
+    line-height: 25px;
     width: 33vw;
+    text-align: left;
+    margin-bottom: 1rem;
 }
 
 .photo{
@@ -109,6 +111,7 @@
     font-size: 1.5rem;
     margin: 10px;
     margin-top: 0;
+    margin-bottom: 1rem;
 }
 
 .back-button{

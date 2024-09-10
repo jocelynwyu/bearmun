@@ -20,7 +20,6 @@ function HeroSection() {
       );
       const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
       const seconds = Math.floor((diff % (1000 * 60)) / 1000);
-
       const countdownStr = `${days
         .toString()
         .padStart(2, "0")}:${hours.toString().padStart(2, "0")}:${minutes
@@ -129,7 +128,10 @@ function HeroSection() {
           Director General and Secretary General
           <br />
           <p style={{ fontStyle: "italic", textAlign: "right" }}>
-            secretarygeneral@bearmun.berkeley.edu
+          directorgeneral@bearmun.studentorg.berkeley.edu  
+          </p>
+          <p style={{ fontStyle: "italic", textAlign: "right" }}>
+          secretarygeneral@bearmun.studentorg.berkeley.edu
           </p>
         </p>
       </p>

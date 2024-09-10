@@ -11,7 +11,7 @@ function UNHRC() {
         skill="Skill Level: Novice"
         description="Description coming soon!"
         chair1="Nishita Belur"
-        position1='Chair'
+        position1="Chair"
         bio11="Greetings delegates,"
         bio12="Welcome to UNHRC! My name is Nishita Belur (she/her), and I am excited to be your
         Chair for the United Nations Security Council. I am a senior from the Bay Area studying
@@ -31,18 +31,12 @@ function UNHRC() {
         policies necessary to address the complex situations UNHRC often encounters. I am so excited
         to meet all of you, and I hope you all have a great conference!"
         bio15="Nishita Belur"
-        bio16="Chair, This is Guinea-Bissau Crazy: United Nations Security Council"
+        // bio16="Chair, This is Guinea-Bissau Crazy: United Nations Security Council"
 
-
-
-
-photo1={require("../../../images/committees/ga/iaea nuclear energy.jpg")}
+        photo1={require("../../../images/committees/ga/iaea nuclear energy.jpg")}
         chair2="Sameera Menon"
-        position2='Vice Chair'
-
-
-
-bio21="Dear Delegates,"
+        position2="Vice Chair"
+        bio21="Dear Delegates,"
         bio22="I am ecstatic to welcome you to BearMUN’s UNHRC committee! I am especially thrilled
         to be spending the next few days hearing your perspectives on a topic that has increasing global
         prevalence, and is a passion of mine."
@@ -67,9 +61,8 @@ bio21="Dear Delegates,"
         feasible. With this in mind, please know that I am beyond intrigued to hear your diverse and
         fresh takes on a decades-old issue, and hope you can go back home with a newfound or fortified
         interest in human rights. Welcome to UNHRC!"
-bio26="Sincerely,
-Sameera Menon"
-
+        bio26="Sincerely,"
+        bio27="Sameera Menon"
         photo2={require("../../../images/committees/ga/iaea nuclear energy.jpg")}
       />
     </>
