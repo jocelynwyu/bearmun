@@ -23,39 +23,83 @@ function ConfSchedule() {
       <div className="letter">
         {/* <h1>Coming soon!</h1> */}
         <p>
-            All times are in Pacific Standard Time, tentative, and subject to minor changes.
-            <br/>
-            <br/>
-
+          All times are in Pacific Standard Time, tentative, and subject to
+          minor changes.
+          <br />
+          <br />
         </p>
-        <br/>
-        <div className='schedule'>
-          <div className='day'>
+        <br />
+        <div className="schedule">
+          <div className="day">
             <h1>Saturday, November 16th</h1>
-            <br/>
-            <p> 8:30 - 9:30: Registration</p>
-            <br/>
-            <p> 9:30 - 10:00: Opening Ceremony</p>
-            <br/><p> 10:30 - 1:30: Committee Session I</p>
-            <br/><p> 1:30 - 3:00: Lunch</p>
-            <br/><p> 3:00 - 5:00: Committee Session II</p>
-            <br/><p> 5:00 - 5:20: Break</p>
-            <br/><p> 5:20 - 7:00: Committee Session III</p>
-            <br/>
-
+            <br />
+            <div className="box">
+              <div className="time-box">
+                <p> 8:30 - 9:30</p>
+                <br />
+                <p> 9:30 - 10:00</p>
+                <br />
+                <p> 10:30 - 1:30</p>
+                <br />
+                <p> 1:30 - 3:00</p>
+                <br />
+                <p> 3:00 - 5:00</p>
+                <br />
+                <p> 5:00 - 5:20</p>
+                <br />
+                <p> 5:20 - 7:00</p>
+                <br />
+              </div>
+              <div className="time-box">
+                <p>Registration</p>
+                <br />
+                <p> Opening Ceremony</p>
+                <br />
+                <p>Committee Session I</p>
+                <br />
+                <p> Lunch</p>
+                <br />
+                <p> Committee Session II</p>
+                <br />
+                <p> Break</p>
+                <br />
+                <p> Committee Session III</p>
+                <br />
+              </div>
+            </div>
           </div>
-          <div className='day'>
+          <div className="day">
             <h1>Sunday, November 17th</h1>
-            <br/>
-            <p> 9:00 - 12:00: Committee Session IV</p>
-            <br/><p> 12:00 - 1:30: Lunch</p>
-            <br/><p> 1:30 - 4:00: Committee Session V</p>
-            <br/><p> 4:00 - 5:00: Campus Tour</p>
-            <br/><p> 5:30 - 6:30: Awards Ceremony</p>
-            <br/>
+            <br />
+            <div className="box">
+              <div className="time-box">
+                <p> 9:00 - 12:00</p>
+                <br />
+                <p> 12:00 - 1:30 </p>
+                <br />
+                <p> 1:30 - 4:00 </p>
+                <br />
+                <p> 4:00 - 5:00 </p>
+                <br />
+                <p> 5:30 - 6:30</p>
+                <br />
+              </div>
+              <div className="time-box">
+                <p>Committee Session IV</p>
+                <br />
+                <p>Lunch</p>
+                <br />
+                <p>Committee Session V</p>
+                <br />
+                <p>Campus Tour</p>
+                <br />
+                <p>Awards Ceremony</p>
+                <br />
+              </div>
+            </div>
           </div>
         </div>
-        <br/>
+        <br />
       </div>
       <br />
       <br />

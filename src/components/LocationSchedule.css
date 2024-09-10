@@ -137,6 +137,21 @@ text-align: center;
     margin-bottom: 20px; /* Adjust the margin as needed */
 
 }
+
+.time-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.time-box p{
+    width: auto;
+}
+
+.box{
+    display: flex;
+    width: 20rem;
+    justify-content: space-between;
+}
   
 
 @media screen and (max-width: 1060px) {
