@@ -73,7 +73,9 @@
   }
 
 .chair-box{
-    width: 45vw;
+    /* width: 45vw; */
+    display: flex;
+    
 }
 
   .chairs{
