@@ -73,7 +73,7 @@ function Legal() {
         bio25="I look forward to an exciting weekend with everyone and welcoming you all to our wonderful
         campus!"
         bio26="Gargee Piplani"
-        photo2={require("../../../images/committees/ga/iaea nuclear energy.jpg")}
+        photo2={require("../../../images/headshots/dias/gargee.png")}
       />
     </>
   );

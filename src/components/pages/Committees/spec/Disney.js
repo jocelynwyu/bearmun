@@ -33,7 +33,7 @@ function Disney() {
         bio13="Best,"
         bio14="Cate Menotti"
         bio15="Crisis Director, Disney Board of Directors"
-        photo1={require("../../../images/committees/ga/iaea nuclear energy.jpg")}
+        photo1={require("../../../images/headshots/dias/cate.jpg")}
         chair2="Romi Vieira Lisboa"
         position2='Vice Chair'
         bio21="Dear Delegates,"
@@ -49,7 +49,7 @@ function Disney() {
         bio23="Best,"
         bio24="Romi Vieira Lisboa"
         bio25="Chair, Disney Board of Directors"
-        photo2={require("../../../images/committees/ga/iaea nuclear energy.jpg")}
+        photo2={require("../../../images/headshots/dias/romi.png")}
       />
     </>
   );

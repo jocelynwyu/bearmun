@@ -77,13 +77,13 @@ function HeroSection() {
 
       <div className="sec-letter">
   <h1 style={{ textAlign: "left" }}>
-    <br />A Letter from the Secretary General and Director General:
+    <br />A Letter from the Secretary General:
   </h1>
   <br />
   <div className="home-info">
   <img
       className="letter-image"
-      src={require("./images/headshots/sec/letter.png")}
+      src={require("./images/headshots/sec/Anna.JPEG")}
       alt="Sara and Anna"
       style={{ float: "left", marginLeft: "10px" }}
     />
@@ -92,8 +92,8 @@ function HeroSection() {
         Esteemed Delegates,
         <br />
         <br />
-        Welcome to BEARMUN XXIV! We are Anna Lieggi and Sara Khemani, your
-        Director General and Secretary General. We are thrilled for the
+        Welcome to BEARMUN XXIV! I am Anna Lieggi, your
+        Secretary General. I am thrilled for the
         opportunity to host this two-day conference, bringing together local
         and national high schools. BEARMUN offers a diverse array of over 15
         committees, catering to both novice and advanced participants,
@@ -124,15 +124,15 @@ function HeroSection() {
         <br />
         <p style={{ textAlign: "right" }}>
           Best regards, <br />
-          <div className="signature">Anna Lieggi and Sara Khemani</div>
-          Director General and Secretary General
+          <div className="signature">Anna Lieggi</div>
+          Secretary General
           <br />
           <p style={{ fontStyle: "italic", textAlign: "right" }}>
           directorgeneral@bearmun.studentorg.berkeley.edu  
           </p>
-          <p style={{ fontStyle: "italic", textAlign: "right" }}>
+          {/* <p style={{ fontStyle: "italic", textAlign: "right" }}>
           secretarygeneral@bearmun.studentorg.berkeley.edu
-          </p>
+          </p> */}
         </p>
       </p>
     </div>

@@ -194,7 +194,7 @@ function Committees() {
               />
               <CommitteeItem2
                 src={require("../images/committees/spec/f1.avif")}
-                committee="Global Impact of Formula 1"
+                committee="Formula 1: Survive to Drive"
                 skill="Skill Level: Intermediate"
                 link="/formula1"
               />

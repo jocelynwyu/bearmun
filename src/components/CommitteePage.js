@@ -20,12 +20,6 @@ function CommitteePage(props) {
       <div className="com-name">
         Staff
         <div className="chair-container" style={{ justifyContent: "center" }}>
-          <br></br>
-          <br></br>
-
-          <br></br>
-          <br></br>
-
           {/* <h2>Coming Soon!</h2> */}
           <div className="chair-box">
           {/* <h2>Coming Soon!</h2> */}

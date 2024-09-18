@@ -20,7 +20,7 @@ function Cards() {
       <br />
       <ul className="cards__items">
         <div className="rows">
-          <CardItem
+          {/* <CardItem
             src={require("./images/headshots/sec/sara.JPG")}
             name="Sara Khemani"
             title="Secretary General"
@@ -34,11 +34,11 @@ function Cards() {
             her heart, and she is incredibly grateful for the opportunity to plan a conference where students
             can learn and grow. Outside of MUN, Sara enjoys traveling and visiting cities like Boston, San
             Francisco, and New York. Sara cannot wait to meet you all at BEARMUN2024!"
-          />
+          /> */}
           <CardItem
             src={require("./images/headshots/sec/Anna.JPEG")}
             name="Anna Lieggi"
-            title="Director General"
+            title="Secretary General"
             email="if you email after 5pm—"
             bio="Anna Lieggi (she/her) is a sophomore studying Global Studies and Political Science at Berkeley. She is pre-law with the hopes of taking a gap year to travel and study! In her free time she likes to hike, go to the beach, and read. Some of her favorite artists include Lana Del Rey, Odesza, and The Cranberries. She joined UCBMUN her first semester at Berkeley and enjoyed staffing the BearMun and UCBMUN conferences last year! This year she is so excited to be helping coordinate BearMun and help make this a great experience for you!"
           />

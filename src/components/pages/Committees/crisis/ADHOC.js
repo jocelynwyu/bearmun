@@ -1,15 +1,23 @@
 import React, { useState, useEffect } from "react";
 import App from "../../../../App";
-import CommitteePage from "../../../CommitteePage";
+import CommitteePage2 from "../../../CommitteePage2";
 
 function ADHOC() {
   return (
     <>
-      <CommitteePage
+      <CommitteePage2
         src={require("../../../images/committees/crisis/gavel adhoc.jpg")}
         committee="ADHOC"
         skill="Skill Level: Novice"
-        description=" Wouldn't you love to know?"
+        description1=" I have no hands, yet I can hold,"
+        description2=" A precious thing worth more than gold."
+        description3=" I carry whispers through the air,"
+        description4=" Though you can't see me, I'm always there."
+
+        description5=" In the morning, I greet your face,"
+        description6=" But by noon, I've left no trace."
+        description7=" What am I, that comes with light,"
+        description8="And fades away come darkest night?"
         chair1="Christina Mueller"
         position1="Chair"
         bio11="Dear Delegates,"
@@ -19,7 +27,7 @@ function ADHOC() {
         bio15="This will be my third time staffing BearMUN — last year I chaired the UN Women Advanced General Assembly and the year prior I vice-chaired a crisis committee. This year, I am especially excited to be directing the Ad-hoc crisis. When we were deciding on the Ad-hoc topic, we wanted to choose something interesting and hands-on but also unique to Berkeley and the Bay Area. Alcatraz Island is something very central to this region and is also an enigma in itself. We were inspired by the 1962 Alcatraz escape and wanted to do something of a similar nature but we also wanted it to have a little spice. So our little twist was to create a dystopian society where everyone is a supervillain in their own right and have these brilliant minds battle it out for their freedom from Alcatraz 2.0, a new and improved version of the old monument. Most importantly, I hope you all have an amazing time in this committee and that you bring all the energy and positivity necessary to create an uplifting environment!"
         bio16="Yours,"
         bio17="Christina Mueller"
-        photo1={require("../../../images/committees/ga/iaea nuclear energy.jpg")}
+        photo1={require("../../../images/headshots/dias/christina.png")}
         chair2="Laia Malburet-Breuil"
         position2="Vice Chair"
         bio21="Hello, delegates,"
@@ -29,7 +37,7 @@ function ADHOC() {
         bio25="I am so excited to introduce you to a committee unlike any other; I encourage you to think outside the box, get creative, and take this committee in the direction YOU want to see. Take this wonderful opportunity to have fun and bond with your fellow delegates. As this BearMUN is the last I will staff, I look most forward to connecting with you all. I am certain you will enjoy what we have in store for you. Think of everything you have learned in MUN, and unlearn it, for our committee will be like no other before. Let the games begin!"
         bio26="Yours sincerely,"
         bio27="Laia Malburet-Breuil"
-        photo2={require("../../../images/committees/ga/iaea nuclear energy.jpg")}
+        photo2={require("../../../images/headshots/dias/laia.png")}
       />
     </>
   );

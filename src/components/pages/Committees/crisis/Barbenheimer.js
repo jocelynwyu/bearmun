@@ -9,14 +9,7 @@ function Barbenheimer() {
         src={require("../../../images/committees/crisis/barbenheimer.jpg")}
         committee="Barbenheimer"
         skill="Skill Level: Novice"
-        description="What happens when two worlds on the opposite spectrums and timelines collide. Barbie and her
-        friends have now been brought to the 1940s Oppenheimer’s world. Barbie fears that
-        Oppenheimer’s work will fall into the wrong hands and be used for malicious purposes.
-        Oppenheimer comes to realize the moral implications of his work and finds his work renderless
-        compared to a utopian society like Barbie’s. How will the two sides work together? What does
-        the use of atomic weapons mean for the real world and Barbie’s world? In this committee,
-        delegates will work together to settle ethical strifes, technological advancements, societal
-        challenges, and resolve chaos. Welcome to the world of Barbenheimer."
+        description="What happens when two worlds on opposite spectrums and timelines collide? Barbie and her friends have now been brought to the 1940s: Oppenheimer’s world. Barbie fears that Oppenheimer’s work will fall into the wrong hands and be used for malicious purposes. Oppenheimer comes to realize the moral implications of his work and finds it to be pointless compared to a utopian society like Barbie’s. How will the two sides work together? What does the use of atomic weapons mean for the real world and Barbie’s world? In this committee, delegates will work together to settle ethical dilemmas, develop technological advancements, face societal challenges, and resolve chaos. Welcome to the world of Barbenheimer."
         chair1="Jomari Encarnacion"
         position1="Chair"
         bio11=" Dear Delegates,"
@@ -44,7 +37,7 @@ function Barbenheimer() {
         questions or comments, please feel free to contact us!"
         bio16=" Best,"
         bio17="Jomari Encarnacion"
-        photo1={require("../../../images/committees/ga/iaea nuclear energy.jpg")}
+        photo1={require("../../../images/headshots/sec/Jomari.jpg")}
         chair2="Anushka Rajasekhar"
         position2="Vice Chair"
         bio21="Dear Delegates,"
@@ -68,7 +61,7 @@ function Barbenheimer() {
         bio25="I am excited to see what you all have in store for our committee, and am looking forward to
         meeting you all. Have a wonderful time at BearMUN, and feel free to reach out if you have any
         questions."
-        photo2={require("../../../images/committees/ga/iaea nuclear energy.jpg")}
+        photo2={require("../../../images/headshots/dias/anushka.png")}
       />
     </>
   );
