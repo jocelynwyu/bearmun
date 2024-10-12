@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import App from "../../../../App";
 import CommitteePage from "../../../CommitteePage";
+import LegalBG from "../../../guides/Legal.pdf";
 
 function Legal() {
   return (
@@ -19,6 +20,7 @@ function Legal() {
         development? How can we make sure biotechnology is accessible not just to wealthy
         superpowers, but to countries who need them the most? We’re thrilled to welcome you to the
         BEARMUN 6th Legal—see you soon!"
+        guide={LegalBG}
         chair1="Adi Lane"
         position1="Chair"
         bio11="Welcome delegates!"
@@ -50,7 +52,7 @@ function Legal() {
         bio16="Adinath Paul Wayne Lane"
         photo1={require("../../../images/headshots/dias/Adi.jpg")}
         chair2="Gargee Piplani"
-        position2="Vice Chair"
+        position2="Chair"
         bio21="Dear Delegates,"
         bio22="My name is Gargee Piplani and I am absolutely delighted to serve as your chair for BEARMUN
         6th Legal. My interest in this topic stems from a philosophy class I took in my first semester of

@@ -9,7 +9,7 @@ function UNSC() {
         src={require("../../../images/committees/crisis/unsc cyprus.webp")}
         committee="UNSC: Reunification of Cyprus"
         skill="Skill Level: Novice"
-        description="Greetings delegates! You’ve been tasked by the UN as powerful members of the United Nations Security Council to attempt to reunify Cyprus. Thus far, a proposal has been set forth as a result of fierce debate between the political parties of Cyrpus known as the Annan Plan. Over the course of committee it will be up to you all to ensure that Cyprus can be reuinified in such a manner that prioritzed the well being of its citizens and the economic and political stability of the fledling nation to come. There are many factions at play and many ideologies to take into account, ranging from the citizens of the nation, to the political parties at play, to even foreign nations which may have strong preferences about the new nation. Take everything into account, and ultimately whether that means enforning the Annan Plan and working to ammas support for the proposal or to draft a new means entirely is up to you. Good luck delegates, all future Cypriots are counting on you."
+        description="Greetings delegates! You’ve been tasked by the UN as powerful members of the United Nations Security Council to attempt to reunify Cyprus. Thus far, a proposal has been set forth as a result of fierce debate between the political parties of Cyrpus known as the Annan Plan. Over the course of the committee, it will be up to you all to ensure that Cyprus can be reunified in such a manner that prioritizes the well-being of its citizens and the economic and political stability of the fledgling nation to come. There are many factions at play and many ideologies to take into account, ranging from the citizens of the nation to the political parties at play, to even foreign nations that may have strong preferences about the new nation. Take everything into account, and ultimately whether that means enforcing the Annan Plan and working to ammas support for the proposal or to draft a new means entirely is up to you. Good luck delegates, all future Cypriots are counting on you."
         chair1="Maanas Shah"
         position1="Crisis Director"
         bio11="Hey everyone! My name is Maanas Shah and I'm a 3rd year studying Physics and Computer Science, from Pleasanton, California! I've been doing mun for 10 years now, and so I'm thrilled to be your CD for an action-packed 2 days at BearMUN!"
@@ -18,7 +18,7 @@ function UNSC() {
         bio14="I'm eager to see you all in committee, and I hope you're ready for the tales that await you and your fellow delegates in the backroom!"
         bio15="Best,"
         bio16="Maanas Shah"
-        photo1={require("../../../images/headshots/dias/maanas.jpg")}
+        photo1={require("../../../images/headshots/dias/maanas.jpeg")}
         chair2="Dylan Nokleby"
         position2="Chair"
         bio21="Hi!"

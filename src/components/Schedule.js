@@ -73,15 +73,15 @@ function ConfSchedule() {
             <br />
             <div className="box">
               <div className="time-box">
-                <p> 9:00 - 12:00</p>
+                <p> 9:30 - 12:00</p>
                 <br />
                 <p> 12:00 - 1:30 </p>
                 <br />
-                <p> 1:30 - 4:00 </p>
+                <p> 1:30 - 3:00 </p>
                 <br />
-                <p> 4:00 - 5:00 </p>
+                <p> 3:00 - 4:00 </p>
                 <br />
-                <p> 5:30 - 6:30</p>
+                <p> 4:30 - 5:30</p>
                 <br />
               </div>
               <div className="time-box">

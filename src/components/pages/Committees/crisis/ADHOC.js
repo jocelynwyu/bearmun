@@ -19,7 +19,7 @@ function ADHOC() {
         description7=" What am I, that comes with light,"
         description8="And fades away come darkest night?"
         chair1="Christina Mueller"
-        position1="Chair"
+        position1="Crisis Director"
         bio11="Dear Delegates,"
         bio12="I am pleased to welcome you to the Crisis Ad-hoc at this year’s BearMUN. I am looking forward to meeting you all and presiding over what will surely be an exciting couple of days!"
         bio13="I am especially thrilled to be running this committee alongside Laia. At our collegiate conference, we were able to run an Ad-hoc General Assembly together and we currently serve as UCBMUN’s co-presidents! We hope to use all that we have learned from our years of collegiate Model U.N. to craft the perfect experience for you all."
@@ -29,7 +29,7 @@ function ADHOC() {
         bio17="Christina Mueller"
         photo1={require("../../../images/headshots/dias/christina.png")}
         chair2="Laia Malburet-Breuil"
-        position2="Vice Chair"
+        position2="Chair"
         bio21="Hello, delegates,"
         bio22="I am pleased to welcome you to BearMUN’s second-ever Ad-Hoc. I am looking forward to meeting you all and presiding over what will surely be an exciting few days!"
         bio23="My name is Laia (she/her) and I will be serving as your chair. I am a political science and media studies major entering my fourth and last year at Cal. I joined UCBMUN my very first semester and have found my closest friends in the organization. Last semester, I was the Secretary-general of BearMUN 2023. Our past iteration was extremely thrilling, and I cannot wait to meet —and surprise— more of you. This year, I am the co-president of UCBMUN, which has given me an incredible chance to meet students from the entire world and support our members on the circuit. On the circuit, I have competed in GAs, Crisis bodies, and Specialized assemblies. I am always very excited to chair committees, as I love to observe dynamics between delegates, vivacious debates over complex topics, and bonding moments between delegates."

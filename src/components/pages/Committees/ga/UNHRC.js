@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import App from "../../../../App";
 import CommitteePage from "../../../CommitteePage";
+import UNHRCBG from "../../../guides/UNHRC.pdf";
 
 function UNHRC() {
   return (
@@ -10,6 +11,7 @@ function UNHRC() {
         committee="UNHRC: Healthcare Access for Refugee Women and Children"
         skill="Skill Level: Novice"
         description="Welcome to UNHRC! Healthcare access for refugee women and children is one of the biggest global challenges today. From the Rohingyas in Bangladesh to Palestinians in Egypt to refugees from the Democratic Republic of the Congo, refugees face limited access to essential medical services. Overcrowded camps, insufficient infrastructure, and inadequate funding all contribute to an appalling lack of medical care. Cultural and language barriers further complicate their ability to communicate context and receive timely care. Additionally, the trauma of displacement often exacerbates health issues, including mental health conditions, which are frequently overlooked. Humanitarian organizations and host countries struggle to meet the overwhelming demand, leaving many refugees without the healthcare they desperately need. We expect delegates to be equipped with an understanding of healthcare solutions and political tensions to bring forth comprehensive and long-lasting solutions."
+        guide={UNHRCBG}
         chair1="Nishita Belur"
         position1="Chair"
         bio11="Greetings delegates,"
@@ -35,7 +37,7 @@ function UNHRC() {
 
         photo1={require("../../../images/headshots/dias/nishita.png")}
         chair2="Sameera Menon"
-        position2="Vice Chair"
+        position2="Chair"
         bio21="Dear Delegates,"
         bio22="I am ecstatic to welcome you to BearMUN’s UNHRC committee! I am especially thrilled
         to be spending the next few days hearing your perspectives on a topic that has increasing global

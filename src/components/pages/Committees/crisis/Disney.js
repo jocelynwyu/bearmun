@@ -19,7 +19,7 @@ function Disney() {
         industry disruptions and political challenges? The choices you make will shape Disney's legacy
         for years to come."
         chair1="Cate Menotti"
-        position1='Chair'
+        position1='Crisis Director'
         bio11="Dear Delegates,"
         bio12="Hiya, pals! Welcome to BearMUN and the Disney Board of Directors committee! My
         name is Cate Menotti (she/her), and I’m so excited to be the crisis director for this committee. As
@@ -35,7 +35,7 @@ function Disney() {
         bio15="Crisis Director, Disney Board of Directors"
         photo1={require("../../../images/headshots/dias/cate.jpg")}
         chair2="Romi Vieira Lisboa"
-        position2='Vice Chair'
+        position2='Chair'
         bio21="Dear Delegates,"
         bio22="Welcome to the Disney Board of Directors committee at BearMUN! My name is Romi
         Vieira Lisboa (she/her), and I will be your chair for this committee. I’m currently a sophomore at

@@ -23,7 +23,7 @@ import UNOOSA from "./components/pages/Committees/ga/UNOOSA";
 import Taylor from "./components/pages/Committees/spec/Taylor";
 import Tables from "./components/pages/Committees/spec/Tables";
 import Formula1 from "./components/pages/Committees/spec/Formula1";
-import Disney from "./components/pages/Committees/spec/Disney";
+import Disney from "./components/pages/Committees/crisis/Disney";
 import OJ from "./components/pages/Committees/spec/OJ";
 import Barbenheimer from "./components/pages/Committees/crisis/Barbenheimer";
 import JCC1 from "./components/pages/Committees/crisis/JCC1";

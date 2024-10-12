@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import App from "../../../../App";
 import CommitteePage from "../../../CommitteePage";
+import IAEABG from "../../../guides/IAEA.pdf";
+
 
 function IAEA() {
   return (
@@ -21,6 +23,7 @@ function IAEA() {
         minority portion of the energy sector of the world today. Delegates will be expected to bring
         solutions inviting international cooperation and define what the ideal future of nuclear energy will
         shape out to be."
+        guide={IAEABG}
         chair1="Minyoung Kim"
         position1="Chair"
         bio11="Hello delegates! My name is Minyoung Kim and I am so excited to be chairing Bearmun’s IAEA
@@ -36,7 +39,7 @@ function IAEA() {
         
         photo1={require("../../../images/headshots/dias/minyoung.png")}
         chair2="Josephine Yasuda"
-        position2="Vice Chair"
+        position2="Chair"
         bio21="Distinguished Delegates,"
         bio22="Welcome to BearMUN 2024! My name is Josephine Yasuda and I am honoured to serve as the
         Vice Chair of our International Atomic Energy Agency (IAEA) committee this year. I am a senior

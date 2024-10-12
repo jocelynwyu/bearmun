@@ -198,13 +198,8 @@ function Committees() {
                 skill="Skill Level: Intermediate"
                 link="/formula1"
               />
+              
               <CommitteeItem
-                src={require("../images/committees/spec/disney bod.jpg")}
-                committee="Disney Board of Directors"
-                skill="Skill Level: Intermediate"
-                link="/disney"
-              />
-              <CommitteeItem2
                 src={require("../images/committees/spec/oj simpson.webp")}
                 committee="Los Angeles County Superior Court: The Trial of OJ Simpson"
                 skill="Skill Level: Advanced"
@@ -217,29 +212,35 @@ function Committees() {
           <br />
           <div className="dum">
             <div className="list">
-              <CommitteeItem
+              <CommitteeItem2
                 src={require("../images/committees/crisis/barbenheimer.jpg")}
                 committee="Barbenheimer "
                 skill="Skill Level: Novice"
                 link="/barbenheimer"
               />
-              <CommitteeItem2
+              <CommitteeItem
                 src={require("../images/committees/crisis/jcc adani.jpg")}
                 committee="JCC: Adani Group"
                 skill="Skill Level: Novice"
                 link="/jccadani"
               />
-              <CommitteeItem
+              <CommitteeItem2
                 src={require("../images/committees/crisis/jcc cbi.jpg")}
                 committee=" JCC: Central Bureau of Investigation"
                 skill="Skill Level: Novice"
                 link="/jcccbi"
               />
-              <CommitteeItem2
+              <CommitteeItem
                 src={require("../images/committees/crisis/percy jackson.webp")}
                 committee="Percy Jackson — The Heroes of Olympus"
                 skill="Skill Level: Intermediate"
                 link="/percyjackson"
+              />
+              <CommitteeItem2
+                src={require("../images/committees/spec/disney bod.jpg")}
+                committee="Disney Board of Directors"
+                skill="Skill Level: Intermediate"
+                link="/disney"
               />
               <CommitteeItem
                 src={require("../images/committees/crisis/unsc cyprus.webp")}

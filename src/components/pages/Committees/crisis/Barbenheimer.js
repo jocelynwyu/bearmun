@@ -11,7 +11,7 @@ function Barbenheimer() {
         skill="Skill Level: Novice"
         description="What happens when two worlds on opposite spectrums and timelines collide? Barbie and her friends have now been brought to the 1940s: Oppenheimer’s world. Barbie fears that Oppenheimer’s work will fall into the wrong hands and be used for malicious purposes. Oppenheimer comes to realize the moral implications of his work and finds it to be pointless compared to a utopian society like Barbie’s. How will the two sides work together? What does the use of atomic weapons mean for the real world and Barbie’s world? In this committee, delegates will work together to settle ethical dilemmas, develop technological advancements, face societal challenges, and resolve chaos. Welcome to the world of Barbenheimer."
         chair1="Jomari Encarnacion"
-        position1="Chair"
+        position1="Crisis Director"
         bio11=" Dear Delegates,"
         bio12="My name is Jomari Encarnacion (she/her), and I will be your acting Crisis Director. It is
         my pleasure to welcome you all to the Barbenheimer committee! I am thrilled to be the Chair for
@@ -39,9 +39,9 @@ function Barbenheimer() {
         bio17="Jomari Encarnacion"
         photo1={require("../../../images/headshots/sec/Jomari.jpg")}
         chair2="Anushka Rajasekhar"
-        position2="Vice Chair"
+        position2="Chair"
         bio21="Dear Delegates,"
-        bio22="My name is Anushka Rajasekhar (she/her), and I will be your [what am I] for the
+        bio22="My name is Anushka Rajasekhar (she/her), and I will be your Chair for the
         Barbenheimer Committee! I’m not a big fan of the Oppenheimer or Barbie movie (I fell asleep in
         the theater), but I played with barbies as a child and I like physics so I suppose there’s some hope
         for me after all. However, this committee will indeed be filled with chaos, entertainment, and

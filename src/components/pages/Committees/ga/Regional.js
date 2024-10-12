@@ -47,7 +47,7 @@ function Regional() {
         bio17="Saranyu Nel"
 photo1={require("../../../images/headshots/dias/Saranyu.png")}
         chair2="Sam Wang"
-        position2='Vice Chair'
+        position2='Chair'
         bio21="Dear delegates,"
         bio22="While this committee is serious, I look forward to seeing your creative solutions to the problems we’ll propose. I also expect collaboration with your fellow delegates. And finally, I hope you’ll learn nuance. You must find a way to advance your character’s interests through solutions that work for everyone. "
         bio23="I joined Model UN to continue my public speaking arc from high school speech and debate, but ended up finding much more. I’ve made new friends through the club, I’ve loved traveling during conferences, and I’ve found MUN committees very interesting. I love hearing wildly creative ideas from other delegates and the cooperative aspect in MUN, which is a change from academic debate. This conference, I am a part of secretariat as Director of Business where I secure sponsorships. In addition, I serve on secretariat for UCBMUN, our college conference, as well. "

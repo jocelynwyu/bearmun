@@ -19,7 +19,7 @@ function JCC2() {
         bio15="Sincerely,"
         bio16="Arhant Ghanta"
         // bio17="Saranyu Nel"
-        photo1={require("../../../images/headshots/dias/akash.png")}
+        photo1={require("../../../images/headshots/dias/arhant.jpeg")}
         chair2="Harsh Kumbhat"
         position2='Crisis Director'
         bio21="Hello fellow LARP enthusiasts! Welcome to the JCC!"
